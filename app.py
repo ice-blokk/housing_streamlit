@@ -14,7 +14,7 @@ with col1:
     # borough = st.text_input("Borough", '')
     borough = st.multiselect(
         "Borough/Neighborhood",
-        ['Manhattan', 'Brooklyn', 'Dumbo', 'Clinton Hill']
+        ['Manhattan', 'Brooklyn']
     )
 with col2:
     # st.text('Pepal characteristics')
