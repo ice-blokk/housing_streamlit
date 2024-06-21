@@ -25,7 +25,7 @@ if borough != '' and beds != '':
         st.write("Looking for ", beds, ' bed apartments in ', borough)
 
 if st.button('Submit'):
-    df = pd.read_csv('data\\user_citysnap_listings_with_probability.csv')
+    df = pd.read_csv('user_citysnap_listings_with_probability.csv')
 
     df = df.sort_values(by='Probability', ascending=False)
     df = df[df['Neighborhood'].str.contains(borough, case=False)]
