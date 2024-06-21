@@ -16,7 +16,7 @@ with col2:
     # st.text('Pepal characteristics')
     # petal_l = st.slider('Petal lenght (cm)', 1.0, 7.0, 0.5)
     # petal_w = st.slider('Petal width (cm)', 0.1, 2.5, 0.5)
-    beds = st.text_input("# Beds", '')
+    beds = st.text_input("# Beds (Studio, 1, 2, 3)", '')
 
 if borough != '' and beds != '':
     if beds.lower == 'studio':
