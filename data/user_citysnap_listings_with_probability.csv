@@ -1,194 +1,194 @@
 Name,Neighborhood,Postal Code,Rent,Payment Standard (PS),Ratio,Property Type,# Beds,# Baths,URL,Probability
-"16 Willoughby Avenue #3, Brooklyn, NY 11205",Brooklyn,11205,3250,2696,1.2,Co-op,1,1,https://www.citysnap.com/NY/Brooklyn/16-Willoughby-Avenue/property/33771184,0.982202598185698
-"1185 Dean Street #2 H, Brooklyn, NY 11216",Brooklyn,11216,2895,2696,1.1,Condo,1,1,https://www.citysnap.com/NY/Brooklyn/1185-Dean-Street/property/33762334,0.9895928445474483
-"40 Broad Street #16A, New York, NY 10004",Manhattan,10004,4995,2696,1.9,Condo,1,0,https://www.citysnap.com/NY/New-York/40-Broad-Street/property/400029940614,0.941708054905078
-"41 Underhill Avenue #1A, Brooklyn, NY 11238",Brooklyn,11238,3200,2696,1.2,Condo,1,2,https://www.citysnap.com/NY/Brooklyn/41-Underhill-Avenue/property/16480386,0.8853198280674578
-"94 5 Th Avenue #5, New York City, NY 11217",Manhattan,11217,2800,2696,1.0,Co-op,1,1,https://www.citysnap.com/NY/New-York-City/94-5-Th-Avenue/property/33765072,0.9934551397715233
-"185 York Street #2A, Brooklyn, NY 11201",Brooklyn,11201,4000,2696,1.5,Condo,1,1,https://www.citysnap.com/NY/Brooklyn/185-York-Street/property/16415524,0.9411876661021238
-"130 William Street #10B, New York, NY 10038",Manhattan,10038,5700,2696,2.1,Condo,1,1,https://www.citysnap.com/NY/New-York/130-William-Street/property/17193900,0.42366763869309876
-"178 8th Street #1, Brooklyn, NY 11215",Brooklyn,11215,3000,2696,1.1,Condo,1,1,https://www.citysnap.com/NY/Brooklyn/178-8th-Street/property/21728149,0.988719498864275
-"296 5th Avenue #2, Brooklyn, NY 11215",Brooklyn,11215,3950,2696,1.5,Condo,1,0,https://www.citysnap.com/NY/Brooklyn/296-5th-Avenue/property/16510134,0.9906917697887571
-"200 Chambers Street #5S, New York, NY 10007",Manhattan,10007,5800,2696,2.2,Condo,1,1,https://www.citysnap.com/NY/New-York/200-Chambers-Street/property/400020497152,0.3415556749943709
-"116 John Street #3305, New York, NY 10038",Manhattan,10038,3813,2696,1.4,Condo,1,1,https://www.citysnap.com/NY/New-York/116-John-Street/property/29632297,0.9542042457361668
-"176 Johnson Street #7C, Brooklyn, NY 11201",Brooklyn,11201,3900,2696,1.4,Condo,1,1,https://www.citysnap.com/NY/Brooklyn/176-Johnson-Street/property/400029933462,0.9576698003385794
-"1 City Point #30 K, Brooklyn, NY 11201",Brooklyn,11201,5200,2696,1.9,Co-op,1,1,https://www.citysnap.com/NY/Brooklyn/1-City-Point/property/29018100,0.6829278813642593
-"80 Metropolitan Avenue #4B, Brooklyn, NY 11211",Brooklyn,11211,5500,2696,2.0,Condo,1,1,https://www.citysnap.com/NY/Brooklyn/80-Metropolitan-Avenue/property/400029934319,0.5289829208642466
-"583 Myrtle Avenue #2, Brooklyn, NY 11205",Brooklyn,11205,2850,2696,1.1,Multi-Family,1,1,https://www.citysnap.com/NY/Brooklyn/583-Myrtle-Avenue/property/29641638,0.9899463357686605
-"460 Grand Street #3-A, Brooklyn, NY 11211",Brooklyn,11211,4200,2696,1.6,Condo,1,1,https://www.citysnap.com/NY/Brooklyn/460-Grand-Street/property/16560863,0.9001757112615875
-"15 Broad Street #3114, New York, NY 10005",Manhattan,10005,6500,2696,2.4,Condo,1,2,https://www.citysnap.com/NY/New-York/15-Broad-Street/property/400020494854,0.025797163764191278
-"252 South Street #54 E, New York, NY 10002",Manhattan,10002,7995,2696,3.0,Condo,1,1,https://www.citysnap.com/NY/New-York/252-South-Street/property/33748673,0.010305409428497732
-"29 Cliff Street #15 E, New York, NY 10038",Manhattan,10038,5380,2696,2.0,Condo,1,1,https://www.citysnap.com/NY/New-York/29-Cliff-Street/property/33747259,0.5521013476497433
-"330 Pearl Street #2A, New York, NY 10038",Manhattan,10038,6200,2696,2.3,Condo,1,1,https://www.citysnap.com/NY/New-York/330-Pearl-Street/property/400020496034,0.2256716406879844
-"196 Willoughby Street #33-F, Brooklyn, NY 11201",Brooklyn,11201,5239,2696,1.9,Condo,1,1,https://www.citysnap.com/NY/Brooklyn/196-Willoughby-Street/property/32054520,0.6763398374561624
-"545 Washington Avenue #509, Brooklyn, NY 11238",Brooklyn,11238,4000,2696,1.5,Condo,1,1,https://www.citysnap.com/NY/Brooklyn/545-Washington-Avenue/property/16489920,0.9323256842484382
-"196 Willoughby Street #33 K, Brooklyn, NY 11201",Brooklyn,11201,5308,2696,2.0,Condo,1,1,https://www.citysnap.com/NY/Brooklyn/196-Willoughby-Street/property/26961801,0.602248291615728
-"94 5 Th Avenue #3, New York City, NY 11217",Manhattan,11217,2800,2696,1.0,Co-op,1,1,https://www.citysnap.com/NY/New-York-City/94-5-Th-Avenue/property/33736156,0.9934551397715233
-"689 Myrtle Avenue #1C, Brooklyn, NY 11205",Brooklyn,11205,4200,2696,1.6,Condo,1,1,https://www.citysnap.com/NY/Brooklyn/689-Myrtle-Avenue/listing/175376215,0.9001757112615875
-"15 William Street #9C, New York, NY 10005",Manhattan,10005,4950,2696,1.8,Condo,1,1,https://www.citysnap.com/NY/New-York/15-William-Street/property/400031459794,0.766510861564801
-"235 Madison Street #2, Brooklyn, NY 11216",Brooklyn,11216,2995,2696,1.1,Co-op,1,1,https://www.citysnap.com/NY/Brooklyn/235-Madison-Street/property/33740948,0.9887626835849079
-"252 South Street #71 H, New York, NY 10002",Manhattan,10002,6350,2696,2.4,Condo,1,1,https://www.citysnap.com/NY/New-York/252-South-Street/property/33738828,0.15753441250225428
-"252 South Street #26K, New York, NY 10002",Manhattan,10002,5550,2696,2.1,Condo,1,1,https://www.citysnap.com/NY/New-York/252-South-Street/property/16598673,0.4377923902609156
-"160 Water Street #7 E, New York, NY 10038",Manhattan,10038,5000,2696,1.9,Condo,1,1,https://www.citysnap.com/NY/New-York/160-Water-Street/property/33723455,0.6840865049986227
-"120 Greenwich Street #11A, New York, NY 10006",Manhattan,10006,4400,2696,1.6,Condo,1,1,https://www.citysnap.com/NY/New-York/120-Greenwich-Street/property/400020495441,0.8853406599972095
-"51 Jay Street #3N, Brooklyn, NY 11201",Brooklyn,11201,6000,2696,2.2,Condo,1,0,https://www.citysnap.com/NY/Brooklyn/51-Jay-Street/property/19705461,0.7935459636173993
-"123 Washington Street #44H, New York, NY 10006",Manhattan,10006,4500,2696,1.7,Condo,1,1,https://www.citysnap.com/NY/New-York/123-Washington-Street/property/11203168,0.8452466231986387
-"490 Myrtle Avenue #2-M, Brooklyn, NY 11205",Brooklyn,11205,3300,2696,1.2,Condo,1,1,https://www.citysnap.com/NY/Brooklyn/490-Myrtle-Avenue/property/16474069,0.9815116351601821
-"504 Myrtle Avenue #3-S, Brooklyn, NY 11205",Brooklyn,11205,3500,2696,1.3,Condo,1,1,https://www.citysnap.com/NY/Brooklyn/504-Myrtle-Avenue/property/22722415,0.97202731036176
-"280 Rector Place #9L, New York, NY 10280",Manhattan,10280,4200,2696,1.6,Condo,1,1,https://www.citysnap.com/NY/New-York/280-Rector-Place/property/400020492810,0.9001757112615875
-"252 South Street #28N, New York, NY 10002",Manhattan,10002,5650,2696,2.1,Condo,1,1,https://www.citysnap.com/NY/New-York/252-South-Street/property/16578241,0.4187974075609632
-"85 Adams Street #22 A, Dumbo, NY 11201",Dumbo,11201,6000,2696,2.2,Condo,1,1,https://www.citysnap.com/NY/Dumbo/85-Adams-Street/property/33724748,0.3408963155876258
-"159 Smith Street #3A, Boerumhl, NY 11201",Boerumhl,11201,3900,2696,1.4,Condo,1,1,https://www.citysnap.com/NY/Boerumhl/159-Smith-Street/property/16560248,0.9576698003385794
-"65 2nd Street #2, Brooklyn, NY 11231",Brooklyn,11231,4025,2696,1.5,Co-op,1,1,https://www.citysnap.com/NY/Brooklyn/65-2nd-Street/property/33731493,0.931091566163856
-"50 West Street #53-D, New York, NY 10006",Manhattan,10006,13500,2696,5.0,Condo,1,2,https://www.citysnap.com/NY/New-York/50-West-Street/property/16487112,9.634797726448566e-08
-"200 Sackett Street #1F, Brooklyn, NY 11231",Brooklyn,11231,3450,2696,1.3,Condo,1,0,https://www.citysnap.com/NY/Brooklyn/200-Sackett-Street/property/16510030,0.9962888086489465
-"81 Clifton Place #1 J, Brooklyn, NY 11238",Brooklyn,11238,4288,2696,1.6,Condo,1,1,https://www.citysnap.com/NY/Brooklyn/81-Clifton-Place/property/25706712,0.8938707049696669
-"8 Marcy Ave #3 B, Williamsburg,north , NY 11211","Williamsburg,north ",11211,4725,2696,1.8,Condo,1,1,https://www.citysnap.com/NY/Williamsburgnorth/8-Marcy-Avenue/property/33728830,0.7780955178680841
-"252 South Street #7 K, New York, NY 10002",Manhattan,10002,4950,2696,1.8,Condo,1,1,https://www.citysnap.com/NY/New-York/252-South-Street/property/29792206,0.7352188710679454
-"249 Willoughby Ave #13 D, Clinton Hill, NY 11205",Clinton Hill,11205,3875,2696,1.4,Condo,1,1,https://www.citysnap.com/NY/Clinton-Hill/249-Willoughby-Avenue/property/29761834,0.9520556814969172
-"249 Willoughby Ave #11 F, Clinton Hill, NY 11205",Clinton Hill,11205,3995,2696,1.5,Condo,1,1,https://www.citysnap.com/NY/Clinton-Hill/249-Willoughby-Avenue/property/29200048,0.9325700357340173
-"249 Willoughby Ave #11 G, Clinton Hill, NY 11205",Clinton Hill,11205,3795,2696,1.4,Condo,1,1,https://www.citysnap.com/NY/Clinton-Hill/249-Willoughby-Avenue/property/29317818,0.9548106576251172
-"249 Willoughby Ave #17 D, Clinton Hill, NY 11205",Clinton Hill,11205,5050,2696,1.9,Condo,1,1,https://www.citysnap.com/NY/Clinton-Hill/249-Willoughby-Avenue/property/29599166,0.6756436634899684
-"19 Park Place #7 A, New York, NY 10007",Manhattan,10007,6150,2696,2.3,Condo,1,1,https://www.citysnap.com/NY/New-York/19-Park-Place/property/33708817,0.23209043578527175
-"46 Henry Street #4-F, New York City, NY 11201",Manhattan,11201,2995,2696,1.1,Condo,1,1,https://www.citysnap.com/NY/New-York-City/46-Henry-Street/property/29457621,0.9903110187476624
-"8 Hancock Street #1, Brooklyn, NY 11216",Brooklyn,11216,3300,2696,1.2,Multi-Family,1,0,https://www.citysnap.com/NY/Brooklyn/8-Hancock-Street/property/16431039,0.9974717296852335
-"154 Washington Avenue #PARLOR, Brooklyn, NY 11205",Brooklyn,11205,3500,2696,1.3,Condo,1,1,https://www.citysnap.com/NY/Brooklyn/154-Washington-Avenue/property/33713051,0.97202731036176
-"561 Pacific Street #203, New York City, NY 11217",Manhattan,11217,4450,2696,1.7,Condo,1,1,https://www.citysnap.com/NY/New-York-City/561-Pacific-Street/property/16616613,0.8655258682889859
-"99 John Street #310, New York, NY 10038",Manhattan,10038,3995,2696,1.5,Condo,1,1,https://www.citysnap.com/NY/New-York/99-John-Street/property/400029941665,0.9325700357340173
-"20 Pine Street #501, New York, NY 10005",Manhattan,10005,7000,2696,2.6,Condo,1,2,https://www.citysnap.com/NY/New-York/20-Pine-Street/property/12186595,0.010389304762797773
-"110 Livingston Street #17J, Brooklyn, NY 11201",Brooklyn,11201,4800,2696,1.8,Condo,1,1,https://www.citysnap.com/NY/Brooklyn/110-Livingston-Street/property/400019637225,0.7935123436770225
-"44 S Oxford Street #3, Brooklyn, NY 11217",Brooklyn,11217,3350,2696,1.2,Condo,1,1,https://www.citysnap.com/NY/Brooklyn/44-S-Oxford-Street/property/21724560,0.9830190478967896
-"373 Wythe Avenue #2 A, New York City, NY 11249",Manhattan,11249,3400,2696,1.3,Condo,1,1,https://www.citysnap.com/NY/New-York-City/373-Wythe-Avenue/property/33702850,0.9740613700747222
-"373 Wythe Avenue #6-C, New York City, NY 11249",Manhattan,11249,3800,2696,1.4,Condo,1,1,https://www.citysnap.com/NY/New-York-City/373-Wythe-Avenue/property/21742880,0.9546429814298613
-"450 Grand Avenue #2 D, Clinton Hill, NY 11238",Clinton Hill,11238,3900,2696,1.4,Condo,1,1,https://www.citysnap.com/NY/Clinton-Hill/450-Grand-Avenue/property/29762286,0.951162515200347
-"216 6th Avenue #1D, Brooklyn, NY 11215",Brooklyn,11215,3500,2696,1.3,Condo,1,0,https://www.citysnap.com/NY/Brooklyn/216-6th-Avenue/property/16482139,0.9961425782713872
-"85 W Broadway #10N, New York, NY 10007",Manhattan,10007,5250,2696,1.9,Condo,1,1,https://www.citysnap.com/NY/New-York/85-W-Broadway/property/400031460097,0.6401992256121952
-"249 Willoughby Ave #6 A, Clinton Hill, NY 11205",Clinton Hill,11205,3695,2696,1.4,Condo,1,1,https://www.citysnap.com/NY/Clinton-Hill/249-Willoughby-Avenue/property/29071929,0.9580426028701778
-"56 Pine Street #10D, New York, NY 10005",Manhattan,10005,3500,2696,1.3,Condo,1,1,https://www.citysnap.com/NY/New-York/56-Pine-Street/property/400020495303,0.9748354918980575
-"1202 Fulton Street #2F, Brooklyn, NY 11216",Brooklyn,11216,2529,2696,0.9,Condo,1,1,https://www.citysnap.com/NY/Brooklyn/1202-Fulton-Street/property/16306835,0.9953950821848507
-"491 Myrtle Avenue #4-A, Brooklyn, NY 11205",Brooklyn,11205,3008,2696,1.1,Detached,1,1,https://www.citysnap.com/NY/Brooklyn/491-Myrtle-Avenue/property/16479895,0.9886500618193139
-"7 Dey Street #21 F, New York, NY 10007",Manhattan,10007,6100,2696,2.3,Condo,1,1,https://www.citysnap.com/NY/New-York/7-Dey-Street/property/33694473,0.239075996609555
-"491 Myrtle Avenue #4-B, Brooklyn, NY 11205",Brooklyn,11205,3090,2696,1.1,Detached,1,1,https://www.citysnap.com/NY/Brooklyn/491-Myrtle-Avenue/property/16479897,0.9879135219837285
-"7 Dey Street #25A, New York, NY 10007",Manhattan,10007,6150,2696,2.3,Condo,1,1,https://www.citysnap.com/NY/New-York/7-Dey-Street/property/21707928,0.23209043578527175
-"85 N 3rd Street #305, Brooklyn, NY 11249",Brooklyn,11249,7995,2696,3.0,Condo,1,1,https://www.citysnap.com/NY/Brooklyn/85-N-3rd-Street/property/16223955,0.010922392812732796
-"250 Pacific Street #25, Brooklyn, NY 11201",Brooklyn,11201,4750,3027,1.6,Condo,2,1,https://www.citysnap.com/NY/Brooklyn/250-Pacific-Street/property/16333266,0.9956985101414492
-"436 Albee Square #21 C, Brooklyn, NY 11201",Brooklyn,11201,4860,3027,1.6,Condo,2,2,https://www.citysnap.com/NY/Brooklyn/436-Albee-Square/property/33763682,0.9662160830754302
-"53 Ludlow Street #15, New York, NY 10002",Manhattan,10002,4195,3027,1.4,Condo,2,1,https://www.citysnap.com/NY/New-York/53-Ludlow-Street/property/33763947,0.9979822445669883
-"592 Vanderbilt Avenue #4L, Proshei, NY 11238",Prospect Heights,11238,4695,3027,1.6,Condo,2,1,https://www.citysnap.com/NY/Proshei/592-Vanderbilt-Avenue/property/16414747,0.9952143664013179
-"75 Wall Street #38A, New York, NY 10005",Manhattan,10005,6950,3027,2.3,Condo,2,2,https://www.citysnap.com/NY/New-York/75-Wall-Street/property/400029941072,0.4527279755506115
-"613 Baltic Street #3D, Parkslope, NY 11217",Parkslope,11217,6750,3027,2.2,Condo,2,2,https://www.citysnap.com/NY/Parkslope/613-Baltic-Street/property/16487597,0.5623833493096189
-"892 Bergen Street #3-C, Brooklyn, NY 11238",Brooklyn,11238,4800,3027,1.6,Condo,2,2,https://www.citysnap.com/NY/Brooklyn/892-Bergen-Street/property/16348839,0.96267809211904
-"471 Carroll Street #2 L, Brooklyn, NY 11215",Brooklyn,11215,2800,3027,0.9,Condo,2,0,https://www.citysnap.com/NY/Brooklyn/471-Carroll-Street/property/33765157,0.9999773131934088
-"428 Henry Street #3, Brooklyn, NY 11231",Brooklyn,11231,6750,3027,2.2,Detached,2,2,https://www.citysnap.com/NY/Brooklyn/428-Henry-Street/property/16480182,0.5313248182635866
-"86 Carroll Street #4 TF, Brooklyn, NY 11231",Brooklyn,11231,4000,3027,1.3,Condo,2,1,https://www.citysnap.com/NY/Brooklyn/86-Carroll-Street/property/16503355,0.9987488462648315
-"94 Prospect Place #2, Brooklyn, NY 11217",Brooklyn,11217,5995,3027,2.0,Condo,2,1,https://www.citysnap.com/NY/Brooklyn/94-Prospect-Place/property/12345173,0.96706086300211
-"374 Atlantic Avenue #3, Brooklyn, NY 11217",Brooklyn,11217,4950,3027,1.6,Condo,2,1,https://www.citysnap.com/NY/Brooklyn/374-Atlantic-Avenue/property/33751914,0.9948565423570487
-"111 Fulton Street #319, New York, NY 10038",Manhattan,10038,6495,3027,2.1,Condo,2,2,https://www.citysnap.com/NY/New-York/111-Fulton-Street/property/400029942175,0.6438084873221023
-"143 4 Th Avenue #2 A, New York City, NY 11217",Manhattan,11217,3750,3027,1.2,Condo,2,1,https://www.citysnap.com/NY/New-York-City/143-4-Th-Avenue/property/22466422,0.9993046529874897
-"123 Washington Street #45B, New York, NY 10006",Manhattan,10006,9000,3027,3.0,Condo,2,2,https://www.citysnap.com/NY/New-York/123-Washington-Street/property/16411246,0.0225498311469548
-"677 Vanderbilt Avenue #4 C, Brooklyn, NY 11238",Brooklyn,11238,3500,3027,1.2,Condo,2,1,https://www.citysnap.com/NY/Brooklyn/677-Vanderbilt-Avenue/property/33757345,0.9993507163531813
-"20 River Terrace #10 A, New York, NY 10282",Manhattan,10282,7995,3027,2.6,Condo,2,2,https://www.citysnap.com/NY/New-York/20-River-Terrace/property/23098664,0.12842230441354824
-"1253 Pacific Street #4, Brooklyn, NY 11216",Brooklyn,11216,3200,3027,1.1,Condo,2,1,https://www.citysnap.com/NY/Brooklyn/1253-Pacific-Street/property/16378073,0.9996066330125183
-"7 4th Place #4, Brooklyn, NY 11231",Brooklyn,11231,7000,3027,2.3,Co-op,2,0,https://www.citysnap.com/NY/Brooklyn/7-4th-Place/property/400019639788,0.9752615265356823
-"367 Waverly Avenue #2 D, Brooklyn, NY 11238",Brooklyn,11238,3950,3027,1.3,Condo,2,1,https://www.citysnap.com/NY/Brooklyn/367-Waverly-Avenue/property/30041127,0.9987963954271227
-"948 Atlantic Avenue #2, Brooklyn, NY 11238",Brooklyn,11238,3850,3027,1.3,Commercial,2,1,https://www.citysnap.com/NY/Brooklyn/948-Atlantic-Avenue/property/33748254,0.9988861471864742
-"77 8th Avenue #DUPLEX, Brooklyn, NY 11215",Brooklyn,11215,8000,3027,2.6,Co-op,2,0,https://www.citysnap.com/NY/Brooklyn/77-8th-Avenue/property/33748244,0.8901830358346344
-"196 Willoughby Street #28 M, Brooklyn, NY 11201",Brooklyn,11201,7114,3027,2.4,Condo,2,2,https://www.citysnap.com/NY/Brooklyn/196-Willoughby-Street/property/24347354,0.36716831572269176
-"53 Park Place #4 D, New York, NY 10007",Manhattan,10007,5850,3027,1.9,Condo,2,1,https://www.citysnap.com/NY/New-York/53-Park-Place/property/29298211,0.9742422697270501
-"333 Rector Place #1109, New York, NY 10280",Manhattan,10280,8500,3027,2.8,Condo,2,2,https://www.citysnap.com/NY/New-York/333-Rector-Place/property/16340098,0.05499021752570284
-"380 S 4 Th Street #10, New York City, NY 11211",Manhattan,11211,3895,3027,1.3,Condo,2,1,https://www.citysnap.com/NY/New-York-City/380-S-4-Th-Street/property/28714992,0.998846617413596
-"441 Metropolitan Avenue #2, Brooklyn, NY 11211",Brooklyn,11211,6500,3027,2.1,Condo,2,1,https://www.citysnap.com/NY/Brooklyn/441-Metropolitan-Avenue/property/33741557,0.9304608190902038
-"85 Adams Street #8 A, Dumbo, NY 11201",Dumbo,11201,6900,3027,2.3,Condo,2,2,https://www.citysnap.com/NY/Dumbo/85-Adams-Street/property/31291631,0.47259621566550325
-"252 South Street #69 F, New York, NY 10002",Manhattan,10002,9450,3027,3.1,Condo,2,2,https://www.citysnap.com/NY/New-York/252-South-Street/property/33740826,0.011592339114035458
-"507 Clinton Avenue #1, Brooklyn, NY 11238",Brooklyn,11238,8995,3027,3.0,Co-op,2,0,https://www.citysnap.com/NY/Brooklyn/507-Clinton-Avenue/property/21726125,0.5612241882279112
-"20 River Terrace #5L, New York, NY 10282",Manhattan,10282,10500,3027,3.5,Co-op,2,2,https://www.citysnap.com/NY/New-York/20-River-Terrace/property/21705545,0.0018771280347911368
-"99 John Street #1810, New York, NY 10038",Manhattan,10038,5650,3027,1.9,Condo,2,1,https://www.citysnap.com/NY/New-York/99-John-Street/property/400029941974,0.9779148977590756
-"80 John Street #3B, New York, NY 10038",Manhattan,10038,6500,3027,2.1,Condo,2,2,https://www.citysnap.com/NY/New-York/80-John-Street/property/400020495511,0.6429183975183682
-"196 Willoughby Street #13K, Brooklyn, NY 11201",Brooklyn,11201,6762,3027,2.2,Condo,2,2,https://www.citysnap.com/NY/Brooklyn/196-Willoughby-Street/property/21709263,0.5661029825330223
-"264 Water Street #3A, New York, NY 11201",Manhattan,11201,7500,3027,2.5,Condo,2,2,https://www.citysnap.com/NY/New-York/264-Water-Street/property/16056045,0.2474068616919739
-"196 Willoughby Street #19-R, Brooklyn, NY 11201",Brooklyn,11201,7037,3027,2.3,Condo,2,2,https://www.citysnap.com/NY/Brooklyn/196-Willoughby-Street/property/29344971,0.44620464818396766
-"540 Fulton Street #14-G, Brooklyn, NY 11201",Brooklyn,11201,5750,3027,1.9,Condo,2,2,https://www.citysnap.com/NY/Brooklyn/540-Fulton-Street/property/29913605,0.8649484087746511
-"209 Quincy Street #2R, Bed-Stuy, NY 11216",Bed-Stuy,11216,4695,3027,1.6,Condo,2,2,https://www.citysnap.com/NY/Bed-Stuy/209-Quincy-Street/property/16334212,0.9654972286291801
-"125 S 1st Street #3, Brooklyn, NY 11249",Brooklyn,11249,7000,3027,2.3,Condo,2,2,https://www.citysnap.com/NY/Brooklyn/125-S-1st-Street/property/17258674,0.4165077044544234
-"150 Nassau Street #12D, New York, NY 10038",Manhattan,10038,9000,3027,3.0,Condo,2,2,https://www.citysnap.com/NY/New-York/150-Nassau-Street/property/400020495996,0.0225498311469548
-"77 Washington Pl #3, New York, NY 10011",Manhattan,10011,12000,3027,4.0,Condo,2,2,https://www.citysnap.com/NY/New-York/77-Washington-Place/property/16601837,0.00012664933175580078
-"116 John Street #2803, New York, NY 10038",Manhattan,10038,4950,3027,1.6,Condo,2,2,https://www.citysnap.com/NY/New-York/116-John-Street/property/33696823,0.9582640306265287
-"252 South Street #35 A, New York, NY 10002",Manhattan,10002,8800,3027,2.9,Condo,2,2,https://www.citysnap.com/NY/New-York/252-South-Street/property/23834997,0.0321646973314189
-"753 Carroll Street #1, New York, NY 11215",Manhattan,11215,3650,3027,1.2,Condo,2,0,https://www.citysnap.com/NY/New-York/753-Carroll-Street/property/16450257,0.9999017943863381
-"30 West St #12 E, Out of Area Town, NY 10004",Out of Area Town,10004,9500,3027,3.1,Condo,2,0,https://www.citysnap.com/NY/Out-of-Area-Town/30-West-Street/property/33703059,0.39788112742959636
-"50 West Street #38-B, New York, NY 10006",Manhattan,10006,13000,3027,4.3,Condo,2,0,https://www.citysnap.com/NY/New-York/50-West-Street/property/16437382,0.001737951432420502
-"150 Hicks Street #4B, New York City, NY 11201",Manhattan,11201,4500,3027,1.5,Condo,2,1,https://www.citysnap.com/NY/New-York-City/150-Hicks-Street/property/16503684,0.9972872418515928
-"370 Baltic Street #4R, Brooklyn, NY 11201",Brooklyn,11201,5500,3027,1.8,Condo,2,2,https://www.citysnap.com/NY/Brooklyn/370-Baltic-Street/property/16468629,0.9104875806963836
-"38 Grace Court #1, Brooklyn, NY 11201",Brooklyn,11201,7000,3027,2.3,Co-op,2,0,https://www.citysnap.com/NY/Brooklyn/38-Grace-Court/property/33700904,0.978629914757118
-"150 5th Avenue #1, New York City, NY 11217",Manhattan,11217,4495,3027,1.5,Condo,2,1,https://www.citysnap.com/NY/New-York-City/150-5th-Avenue/property/25372178,0.9972310480441571
-"55 Wall Street #730, New York, NY 10005",Manhattan,10005,8900,3027,2.9,Condo,2,2,https://www.citysnap.com/NY/New-York/55-Wall-Street/listing/175228043,0.03508286061383135
-"485 1st Street #1, Brooklyn, NY 11215",Brooklyn,11215,7800,3777,2.1,Multi-Family,3,2,https://www.citysnap.com/NY/Brooklyn/485-1st-Street/property/33762281,0.9999870539191532
-"429 Sterling Place #3-L, Brooklyn, NY 11238",Brooklyn,11238,4750,3777,1.3,Condo,3,1,https://www.citysnap.com/NY/Brooklyn/429-Sterling-Place/property/16420669,0.9999999809425874
-"101 Wall Street #19B, New York, NY 10005",Manhattan,10005,12750,3777,3.4,Condo,3,3,https://www.citysnap.com/NY/New-York/101-Wall-Street/property/16458455,0.8833992659196721
-"30 Park Place #DX48D/49D, New York, NY 10007",Manhattan,10007,28500,3777,7.5,Condo,3,0,https://www.citysnap.com/NY/New-York/30-Park-Place/property/31457065,2.261039446605349e-07
-"794 Classon Avenue #6 B, Brooklyn, NY 11238",Brooklyn,11238,5400,3777,1.4,Condo,3,2,https://www.citysnap.com/NY/Brooklyn/794-Classon-Avenue/property/33754168,0.9999996932218871
-"805 Washington Avenue #6D, Proshei, NY 11238",Prospect Heights,11238,8995,3777,2.4,Condo,3,0,https://www.citysnap.com/NY/Proshei/805-Washington-Avenue/property/16629107,0.9999986737459111
-"100 Barclay Street #11Q, New York, NY 10007",Manhattan,10007,22000,3777,5.8,Condo,3,0,https://www.citysnap.com/NY/New-York/100-Barclay-Street/property/16560008,0.0033596127962711633
-"948 Atlantic Avenue #3, Brooklyn, NY 11238",Brooklyn,11238,3950,3777,1.0,Commercial,3,1,https://www.citysnap.com/NY/Brooklyn/948-Atlantic-Avenue/property/33749122,0.9999999954236869
-"102 Pierrepont Street #DUPLEX, New York, NY 11201",Manhattan,11201,9250,3777,2.4,Multi-Family,3,2,https://www.citysnap.com/NY/New-York/102-Pierrepont-Street/property/33760418,0.9999231555422381
-"80 Metropolitan Avenue #3 KI, New York City, NY 11249",Manhattan,11249,9995,3777,2.6,Condo,3,3,https://www.citysnap.com/NY/New-York-City/80-Metropolitan-Avenue/property/33760605,0.9979803996138386
-"10 Grand Avenue #3-3, Clinton Hill, NY 11205",Clinton Hill,11205,4988,3777,1.3,Condo,3,2,https://www.citysnap.com/NY/Clinton-Hill/10-Grand-Avenue/property/33760784,0.9999998296515357
-"75 Poplar Street #3E, Brooklyn, NY 11201",Brooklyn,11201,10500,3777,2.8,Condo,3,2,https://www.citysnap.com/NY/Brooklyn/75-Poplar-Street/property/400019636032,0.9994067650120484
-"69 Fort Greene Place #2, Brooklyn, NY 11217",Brooklyn,11217,7400,3777,2.0,Detached,3,0,https://www.citysnap.com/NY/Brooklyn/69-Fort-Greene-Place/property/33743307,0.9999998840981595
-"91 Leonard Street #12C, New York, NY 10013",Manhattan,10013,18500,3777,4.9,Condo,3,0,https://www.citysnap.com/NY/New-York/91-Leonard-Street/property/16623937,0.36423928694052315
-"37 4th Place #1, Brooklyn, NY 11231",Brooklyn,11231,7500,3777,2.0,Condo,3,0,https://www.citysnap.com/NY/Brooklyn/37-4th-Place/property/33741456,0.9999998580171667
-"228 Clinton Street #PH, Brooklyn, NY 11201",Brooklyn,11201,9800,3777,2.6,Detached,3,2,https://www.citysnap.com/NY/Brooklyn/228-Clinton-Street/property/16398214,0.9997985318455647
-"621 Washington Avenue #3, Brooklyn, NY 11238",Brooklyn,11238,4000,3777,1.1,Condo,3,1,https://www.citysnap.com/NY/Brooklyn/621-Washington-Avenue/property/33727874,0.9999999937766266
-"648 Bergen Street #1A, Brooklyn, NY 11238",Brooklyn,11238,11250,3777,3.0,Condo,3,3,https://www.citysnap.com/NY/Brooklyn/648-Bergen-Street/property/16819853,0.9845508396852998
-"252 South Street #21 D, New York, NY 10002",Manhattan,10002,9980,3777,2.6,Condo,3,2,https://www.citysnap.com/NY/New-York/252-South-Street/property/31074495,0.9997146299108798
-"136 Hicks Street #1H, Brooklyn, NY 11201",Brooklyn,11201,7500,3777,2.0,Condo,3,1,https://www.citysnap.com/NY/Brooklyn/136-Hicks-Street/property/16570632,0.9999990916533723
-"575 Franklin Avenue #4, Brooklyn, NY 11238",Brooklyn,11238,3200,3777,0.8,Condo,3,1,https://www.citysnap.com/NY/Brooklyn/575-Franklin-Avenue/property/33699255,0.999999998505563
-"150 Nassau Street #19A, New York, NY 10038",Manhattan,10038,11500,3777,3.0,Condo,3,0,https://www.citysnap.com/NY/New-York/150-Nassau-Street/property/400020496021,0.9999535865586938
-"314 Degraw Street #3, Brooklyn, NY 11231",Brooklyn,11231,10000,3777,2.6,Condo,3,2,https://www.citysnap.com/NY/Brooklyn/314-Degraw-Street/property/16615981,0.9997267064772191
-"207 Madison Street #18, New York, NY 10002",Manhattan,10002,4200,3777,1.1,Condo,3,1,https://www.citysnap.com/NY/New-York/207-Madison-Street/property/16334491,0.9999999922920425
-"181 Front Street #2J, Brooklyn, NY 11201",Brooklyn,11201,7443,3777,2.0,Condo,3,2,https://www.citysnap.com/NY/Brooklyn/181-Front-Street/property/16551891,0.9999935416264343
-"794 Classon Avenue #6 A, Brooklyn, NY 11238",Brooklyn,11238,5400,3777,1.4,Condo,3,2,https://www.citysnap.com/NY/Brooklyn/794-Classon-Avenue/property/33693690,0.9999996932218871
-"407 Myrtle Avenue #STORE, Fortgrne, NY 11205",Fort Greene,11205,7800,2624,3.0,Condo,Studio,1,https://www.citysnap.com/NY/Fortgrne/407-Myrtle-Avenue/property/33762188,0.00800094220940376
-"948 Atlantic Avenue #1, Brooklyn, NY 11238",Brooklyn,11238,7300,2624,2.8,Commercial,Studio,0,https://www.citysnap.com/NY/Brooklyn/948-Atlantic-Avenue/property/33762313,0.1313303568969549
-"531 Vanderbilt Avenue #5C, Brooklyn, NY 11238",Brooklyn,11238,2950,2624,1.1,Condo,Studio,1,https://www.citysnap.com/NY/Brooklyn/531-Vanderbilt-Avenue/property/16388252,0.9828191646085115
-"48 Livingston Street #2R, New York City, NY 11201",Manhattan,11201,2080,2624,0.8,Condo,Studio,1,https://www.citysnap.com/NY/New-York-City/48-Livingston-Street/property/21726919,0.9965889511684698
-"55 Saint Marks Avenue #7, Brooklyn, NY 11217",Brooklyn,11217,2500,2624,1.0,Condo,Studio,1,https://www.citysnap.com/NY/Brooklyn/55-Saint-Marks-Avenue/property/16449698,0.9917541789926684
-"99 John Street #1225, New York, NY 10038",Manhattan,10038,3800,2624,1.4,Condo,Studio,1,https://www.citysnap.com/NY/New-York/99-John-Street/property/400029941912,0.9296467205332751
-"15 Broad Street #1008, New York, NY 10005",Manhattan,10005,4000,2624,1.5,Condo,Studio,1,https://www.citysnap.com/NY/New-York/15-Broad-Street/property/400020494949,0.906035132508901
-"76 Douglass Street #4F, New York, NY 11231",Manhattan,11231,2895,2624,1.1,Condo,Studio,1,https://www.citysnap.com/NY/New-York/76-Douglass-Street/property/16376042,0.9835250610001475
-"93 Worth Street #204, New York, NY 10013",Manhattan,10013,4600,2624,1.8,Condo,Studio,1,https://www.citysnap.com/NY/New-York/93-Worth-Street/property/16329834,0.7080820375347124
-"196 Willoughby Street #33-G, Brooklyn, NY 11201",Brooklyn,11201,5016,2624,1.9,Condo,Studio,1,https://www.citysnap.com/NY/Brooklyn/196-Willoughby-Street/property/33189573,0.609335638849978
-"420 Kent Avenue #610, New York, NY 11249",Manhattan,11249,3508,2624,1.3,Condo,Studio,1,https://www.citysnap.com/NY/New-York/420-Kent-Avenue/property/21721506,0.9559108579862111
-"420 Kent Avenue #1610, New York, NY 11249",Manhattan,11249,3427,2624,1.3,Condo,Studio,1,https://www.citysnap.com/NY/New-York/420-Kent-Avenue/property/16632234,0.958484858602793
-"196 Willoughby Street #17-U, Brooklyn, NY 11201",Brooklyn,11201,4236,2624,1.6,Condo,Studio,1,https://www.citysnap.com/NY/Brooklyn/196-Willoughby-Street/property/33735448,0.8647792709340257
-"504 Myrtle Avenue #4-X, Brooklyn, NY 11205",Brooklyn,11205,2890,2624,1.1,Condo,Studio,1,https://www.citysnap.com/NY/Brooklyn/504-Myrtle-Avenue/property/16584934,0.9835878013017976
-"420 Kent Avenue #629, New York, NY 11249",Manhattan,11249,3832,2624,1.5,Condo,Studio,1,https://www.citysnap.com/NY/New-York/420-Kent-Avenue/property/33736958,0.907863445916607
-"20 Montgomery Place #2F, New York City, NY 11215",Manhattan,11215,2600,2624,1.0,Condo,Studio,1,https://www.citysnap.com/NY/New-York-City/20-Montgomery-Place/property/16324434,0.9899173586096628
-"20 West Street #34G, New York, NY 10004",Manhattan,10004,3000,2624,1.1,Condo,Studio,1,https://www.citysnap.com/NY/New-York/20-West-Street/property/16317941,0.9821517040589132
-"20 West Street #14K, New York, NY 10004",Manhattan,10004,3500,2624,1.3,Condo,Studio,1,https://www.citysnap.com/NY/New-York/20-West-Street/property/16306099,0.9561717087856946
-"333 Rector Place #PH3W, New York, NY 10280",Manhattan,10280,4500,2624,1.7,Condo,Studio,1,https://www.citysnap.com/NY/New-York/333-Rector-Place/property/16462901,0.7742206051200416
-"180 Franklin Avenue #316, Brooklyn, NY 11205",Brooklyn,11205,3400,2624,1.3,Condo,Studio,1,https://www.citysnap.com/NY/Brooklyn/180-Franklin-Avenue/property/16490931,0.9593104598258844
-"101 Lafayette Avenue #2H, Brooklyn, NY 11217",Brooklyn,11217,2750,2624,1.0,Co-op,Studio,1,https://www.citysnap.com/NY/Brooklyn/101-Lafayette-Avenue/property/16619644,0.9900067754084217
-"490 Myrtle Avenue #6E, Brooklyn, NY 11205",Brooklyn,11205,3050,2624,1.2,Condo,Studio,1,https://www.citysnap.com/NY/Brooklyn/490-Myrtle-Avenue/property/16377590,0.9758828486946363
-"57 E 3rd St #3-C, New York, NY 10003",Manhattan,10003,2795,2624,1.1,Condo,Studio,1,https://www.citysnap.com/NY/New-York/57-E-3rd-Street/property/16301336,0.9847361801219071
-"20 West Street #11H, New York, NY 10004",Manhattan,10004,3500,2624,1.3,Condo,Studio,1,https://www.citysnap.com/NY/New-York/20-West-Street/property/16406156,0.9561717087856946
-"7 Dey Street #11G, New York, NY 10007",Manhattan,10007,5031,2624,1.9,Condo,Studio,1,https://www.citysnap.com/NY/New-York/7-Dey-Street/property/21715108,0.5697041998876169
-"196 Willoughby Street #21-KA, Brooklyn, NY 11201",Brooklyn,11201,4761,2624,1.8,Condo,Studio,1,https://www.citysnap.com/NY/Brooklyn/196-Willoughby-Street/property/29527965,0.7132026296564816
-"540 Fulton Street #19-B, Brooklyn, NY 11201",Brooklyn,11201,3402,2624,1.3,Condo,Studio,1,https://www.citysnap.com/NY/Brooklyn/540-Fulton-Street/property/28812549,0.964719516384138
-"540 Fulton Street #23-D, Brooklyn, NY 11201",Brooklyn,11201,3474,2624,1.3,Condo,Studio,1,https://www.citysnap.com/NY/Brooklyn/540-Fulton-Street/property/33729355,0.9627680676806977
-"540 Fulton Street #36-C, Brooklyn, NY 11201",Brooklyn,11201,3541,2624,1.3,Condo,Studio,1,https://www.citysnap.com/NY/Brooklyn/540-Fulton-Street/property/33729334,0.9608592315971242
-"225 Rector Place #8E, New York, NY 10280",Manhattan,10280,4200,2624,1.6,Condo,Studio,1,https://www.citysnap.com/NY/New-York/225-Rector-Place/property/400020492923,0.8498826801357244
-"20 Pine Street #2405, New York, NY 10005",Manhattan,10005,4100,2624,1.6,Condo,Studio,1,https://www.citysnap.com/NY/New-York/20-Pine-Street/property/16326428,0.8721323905184393
-"504 Myrtle Avenue #2-K, Brooklyn, NY 11205",Brooklyn,11205,3200,2624,1.2,Condo,Studio,1,https://www.citysnap.com/NY/Brooklyn/504-Myrtle-Avenue/property/21712171,0.9729866906131093
-"504 Myrtle Avenue #6-X, Brooklyn, NY 11205",Brooklyn,11205,2825,2624,1.1,Condo,Studio,1,https://www.citysnap.com/NY/Brooklyn/504-Myrtle-Avenue/property/33706491,0.9843823505566208
-"40 Broad Street #28C, New York, NY 10004",Manhattan,10004,4200,2624,1.6,Condo,Studio,1,https://www.citysnap.com/NY/New-York/40-Broad-Street/property/400029940709,0.8498826801357244
-"21 S End Avenue #PH2BB, New York, NY 10280",Manhattan,10280,4000,2624,1.5,Condo,Studio,1,https://www.citysnap.com/NY/New-York/21-S-End-Avenue/property/400020493986,0.8963655234360884
-"75 Wall Street #28D, New York, NY 10005",Manhattan,10005,4500,2624,1.7,Condo,Studio,1,https://www.citysnap.com/NY/New-York/75-Wall-Street/property/400029940916,0.792650621853566
-"136 Willow Street #2 R, Brooklyn, NY 11201",Brooklyn,11201,2200,2624,0.8,Condo,Studio,1,https://www.citysnap.com/NY/Brooklyn/136-Willow-Street/property/33711191,0.9962573650411144
-"20 Pine Street #607, New York, NY 10005",Manhattan,10005,3800,2624,1.4,Condo,Studio,1,https://www.citysnap.com/NY/New-York/20-Pine-Street/property/16304780,0.9364312520758383
-"138 Willoughby Street #25G, Brooklyn, NY 11201",Brooklyn,11201,3995,2624,1.5,Co-op,Studio,1,https://www.citysnap.com/NY/Brooklyn/138-Willoughby-Street/property/19961691,0.9097981635079299
-"834 Pacific Street #518, New York City, NY 11238",Manhattan,11238,3400,2624,1.3,Condo,Studio,1,https://www.citysnap.com/NY/New-York-City/834-Pacific-Street/property/21714712,0.9593104598258844
-"15 William Street #35D, New York, NY 10005",Manhattan,10005,4500,2624,1.7,Condo,Studio,1,https://www.citysnap.com/NY/New-York/15-William-Street/property/400031459995,0.792650621853566
-"75 Clinton Street #8E, Brooklyn, NY 11201",Brooklyn,11201,4205,2624,1.6,Condo,Studio,1,https://www.citysnap.com/NY/Brooklyn/75-Clinton-Street/property/16440045,0.8675671733384122
-"499 Park Place #3-F, Brooklyn, NY 11238",Brooklyn,11238,2271,2624,0.9,Condo,Studio,1,https://www.citysnap.com/NY/Brooklyn/499-Park-Place/property/33693942,0.9940042392048343
-"11 Hoyt Street #17F, Brooklyn, NY 11201",Brooklyn,11201,3750,2624,1.4,Condo,Studio,1,https://www.citysnap.com/NY/Brooklyn/11-Hoyt-Street/property/21720596,0.9410265263218184
-"49 Willow Street #1G, New York, NY 11201",Manhattan,11201,2750,2624,1.0,Condo,Studio,1,https://www.citysnap.com/NY/New-York/49-Willow-Street/property/21719762,0.9902456828708113
+"16 Willoughby Avenue #3, Brooklyn, NY 11205",Brooklyn,11205,3250,2696,1.2,Co-op,1,1,https://www.citysnap.com/NY/Brooklyn/16-Willoughby-Avenue/property/33771184,0.982202598
+"1185 Dean Street #2 H, Brooklyn, NY 11216",Brooklyn,11216,2895,2696,1.1,Condo,1,1,https://www.citysnap.com/NY/Brooklyn/1185-Dean-Street/property/33762334,0.989592845
+"40 Broad Street #16A, New York, NY 10004",Manhattan,10004,4995,2696,1.9,Condo,1,0,https://www.citysnap.com/NY/New-York/40-Broad-Street/property/400029940614,0.941708055
+"41 Underhill Avenue #1A, Brooklyn, NY 11238",Brooklyn,11238,3200,2696,1.2,Condo,1,2,https://www.citysnap.com/NY/Brooklyn/41-Underhill-Avenue/property/16480386,0.885319828
+"94 5 Th Avenue #5, New York City, NY 11217",Manhattan,11217,2800,2696,1,Co-op,1,1,https://www.citysnap.com/NY/New-York-City/94-5-Th-Avenue/property/33765072,0.99345514
+"185 York Street #2A, Brooklyn, NY 11201",Brooklyn,11201,4000,2696,1.5,Condo,1,1,https://www.citysnap.com/NY/Brooklyn/185-York-Street/property/16415524,0.941187666
+"130 William Street #10B, New York, NY 10038",Manhattan,10038,5700,2696,2.1,Condo,1,1,https://www.citysnap.com/NY/New-York/130-William-Street/property/17193900,0.423667639
+"178 8th Street #1, Brooklyn, NY 11215",Brooklyn,11215,3000,2696,1.1,Condo,1,1,https://www.citysnap.com/NY/Brooklyn/178-8th-Street/property/21728149,0.988719499
+"296 5th Avenue #2, Brooklyn, NY 11215",Brooklyn,11215,3950,2696,1.5,Condo,1,0,https://www.citysnap.com/NY/Brooklyn/296-5th-Avenue/property/16510134,0.99069177
+"200 Chambers Street #5S, New York, NY 10007",Manhattan,10007,5800,2696,2.2,Condo,1,1,https://www.citysnap.com/NY/New-York/200-Chambers-Street/property/400020497152,0.341555675
+"116 John Street #3305, New York, NY 10038",Manhattan,10038,3813,2696,1.4,Condo,1,1,https://www.citysnap.com/NY/New-York/116-John-Street/property/29632297,0.954204246
+"176 Johnson Street #7C, Brooklyn, NY 11201",Brooklyn,11201,3900,2696,1.4,Condo,1,1,https://www.citysnap.com/NY/Brooklyn/176-Johnson-Street/property/400029933462,0.9576698
+"1 City Point #30 K, Brooklyn, NY 11201",Brooklyn,11201,5200,2696,1.9,Co-op,1,1,https://www.citysnap.com/NY/Brooklyn/1-City-Point/property/29018100,0.682927881
+"80 Metropolitan Avenue #4B, Brooklyn, NY 11211",Brooklyn,11211,5500,2696,2,Condo,1,1,https://www.citysnap.com/NY/Brooklyn/80-Metropolitan-Avenue/property/400029934319,0.528982921
+"583 Myrtle Avenue #2, Brooklyn, NY 11205",Brooklyn,11205,2850,2696,1.1,Multi-Family,1,1,https://www.citysnap.com/NY/Brooklyn/583-Myrtle-Avenue/property/29641638,0.989946336
+"460 Grand Street #3-A, Brooklyn, NY 11211",Brooklyn,11211,4200,2696,1.6,Condo,1,1,https://www.citysnap.com/NY/Brooklyn/460-Grand-Street/property/16560863,0.900175711
+"15 Broad Street #3114, New York, NY 10005",Manhattan,10005,6500,2696,2.4,Condo,1,2,https://www.citysnap.com/NY/New-York/15-Broad-Street/property/400020494854,0.025797164
+"252 South Street #54 E, New York, NY 10002",Manhattan,10002,7995,2696,3,Condo,1,1,https://www.citysnap.com/NY/New-York/252-South-Street/property/33748673,0.010305409
+"29 Cliff Street #15 E, New York, NY 10038",Manhattan,10038,5380,2696,2,Condo,1,1,https://www.citysnap.com/NY/New-York/29-Cliff-Street/property/33747259,0.552101348
+"330 Pearl Street #2A, New York, NY 10038",Manhattan,10038,6200,2696,2.3,Condo,1,1,https://www.citysnap.com/NY/New-York/330-Pearl-Street/property/400020496034,0.225671641
+"196 Willoughby Street #33-F, Brooklyn, NY 11201",Brooklyn,11201,5239,2696,1.9,Condo,1,1,https://www.citysnap.com/NY/Brooklyn/196-Willoughby-Street/property/32054520,0.676339837
+"545 Washington Avenue #509, Brooklyn, NY 11238",Brooklyn,11238,4000,2696,1.5,Condo,1,1,https://www.citysnap.com/NY/Brooklyn/545-Washington-Avenue/property/16489920,0.932325684
+"196 Willoughby Street #33 K, Brooklyn, NY 11201",Brooklyn,11201,5308,2696,2,Condo,1,1,https://www.citysnap.com/NY/Brooklyn/196-Willoughby-Street/property/26961801,0.602248292
+"94 5 Th Avenue #3, New York City, NY 11217",Manhattan,11217,2800,2696,1,Co-op,1,1,https://www.citysnap.com/NY/New-York-City/94-5-Th-Avenue/property/33736156,0.99345514
+"689 Myrtle Avenue #1C, Brooklyn, NY 11205",Brooklyn,11205,4200,2696,1.6,Condo,1,1,https://www.citysnap.com/NY/Brooklyn/689-Myrtle-Avenue/listing/175376215,0.900175711
+"15 William Street #9C, New York, NY 10005",Manhattan,10005,4950,2696,1.8,Condo,1,1,https://www.citysnap.com/NY/New-York/15-William-Street/property/400031459794,0.766510862
+"235 Madison Street #2, Brooklyn, NY 11216",Brooklyn,11216,2995,2696,1.1,Co-op,1,1,https://www.citysnap.com/NY/Brooklyn/235-Madison-Street/property/33740948,0.988762684
+"252 South Street #71 H, New York, NY 10002",Manhattan,10002,6350,2696,2.4,Condo,1,1,https://www.citysnap.com/NY/New-York/252-South-Street/property/33738828,0.157534413
+"252 South Street #26K, New York, NY 10002",Manhattan,10002,5550,2696,2.1,Condo,1,1,https://www.citysnap.com/NY/New-York/252-South-Street/property/16598673,0.43779239
+"160 Water Street #7 E, New York, NY 10038",Manhattan,10038,5000,2696,1.9,Condo,1,1,https://www.citysnap.com/NY/New-York/160-Water-Street/property/33723455,0.684086505
+"120 Greenwich Street #11A, New York, NY 10006",Manhattan,10006,4400,2696,1.6,Condo,1,1,https://www.citysnap.com/NY/New-York/120-Greenwich-Street/property/400020495441,0.88534066
+"51 Jay Street #3N, Brooklyn, NY 11201",Brooklyn,11201,6000,2696,2.2,Condo,1,0,https://www.citysnap.com/NY/Brooklyn/51-Jay-Street/property/19705461,0.793545964
+"123 Washington Street #44H, New York, NY 10006",Manhattan,10006,4500,2696,1.7,Condo,1,1,https://www.citysnap.com/NY/New-York/123-Washington-Street/property/11203168,0.845246623
+"490 Myrtle Avenue #2-M, Brooklyn, NY 11205",Brooklyn,11205,3300,2696,1.2,Condo,1,1,https://www.citysnap.com/NY/Brooklyn/490-Myrtle-Avenue/property/16474069,0.981511635
+"504 Myrtle Avenue #3-S, Brooklyn, NY 11205",Brooklyn,11205,3500,2696,1.3,Condo,1,1,https://www.citysnap.com/NY/Brooklyn/504-Myrtle-Avenue/property/22722415,0.97202731
+"280 Rector Place #9L, New York, NY 10280",Manhattan,10280,4200,2696,1.6,Condo,1,1,https://www.citysnap.com/NY/New-York/280-Rector-Place/property/400020492810,0.900175711
+"252 South Street #28N, New York, NY 10002",Manhattan,10002,5650,2696,2.1,Condo,1,1,https://www.citysnap.com/NY/New-York/252-South-Street/property/16578241,0.418797408
+"85 Adams Street #22 A, Dumbo, NY 11201",Dumbo,11201,6000,2696,2.2,Condo,1,1,https://www.citysnap.com/NY/Dumbo/85-Adams-Street/property/33724748,0.340896316
+"159 Smith Street #3A, Boerumhl, NY 11201",Boerum Hill,11201,3900,2696,1.4,Condo,1,1,https://www.citysnap.com/NY/Boerumhl/159-Smith-Street/property/16560248,0.9576698
+"65 2nd Street #2, Brooklyn, NY 11231",Brooklyn,11231,4025,2696,1.5,Co-op,1,1,https://www.citysnap.com/NY/Brooklyn/65-2nd-Street/property/33731493,0.931091566
+"50 West Street #53-D, New York, NY 10006",Manhattan,10006,13500,2696,5,Condo,1,2,https://www.citysnap.com/NY/New-York/50-West-Street/property/16487112,9.63E-08
+"200 Sackett Street #1F, Brooklyn, NY 11231",Brooklyn,11231,3450,2696,1.3,Condo,1,0,https://www.citysnap.com/NY/Brooklyn/200-Sackett-Street/property/16510030,0.996288809
+"81 Clifton Place #1 J, Brooklyn, NY 11238",Brooklyn,11238,4288,2696,1.6,Condo,1,1,https://www.citysnap.com/NY/Brooklyn/81-Clifton-Place/property/25706712,0.893870705
+"8 Marcy Ave #3 B, Williamsburg,north , NY 11211",Williamsburg,11211,4725,2696,1.8,Condo,1,1,https://www.citysnap.com/NY/Williamsburgnorth/8-Marcy-Avenue/property/33728830,0.778095518
+"252 South Street #7 K, New York, NY 10002",Manhattan,10002,4950,2696,1.8,Condo,1,1,https://www.citysnap.com/NY/New-York/252-South-Street/property/29792206,0.735218871
+"249 Willoughby Ave #13 D, Clinton Hill, NY 11205",Clinton Hill,11205,3875,2696,1.4,Condo,1,1,https://www.citysnap.com/NY/Clinton-Hill/249-Willoughby-Avenue/property/29761834,0.952055681
+"249 Willoughby Ave #11 F, Clinton Hill, NY 11205",Clinton Hill,11205,3995,2696,1.5,Condo,1,1,https://www.citysnap.com/NY/Clinton-Hill/249-Willoughby-Avenue/property/29200048,0.932570036
+"249 Willoughby Ave #11 G, Clinton Hill, NY 11205",Clinton Hill,11205,3795,2696,1.4,Condo,1,1,https://www.citysnap.com/NY/Clinton-Hill/249-Willoughby-Avenue/property/29317818,0.954810658
+"249 Willoughby Ave #17 D, Clinton Hill, NY 11205",Clinton Hill,11205,5050,2696,1.9,Condo,1,1,https://www.citysnap.com/NY/Clinton-Hill/249-Willoughby-Avenue/property/29599166,0.675643663
+"19 Park Place #7 A, New York, NY 10007",Manhattan,10007,6150,2696,2.3,Condo,1,1,https://www.citysnap.com/NY/New-York/19-Park-Place/property/33708817,0.232090436
+"46 Henry Street #4-F, New York City, NY 11201",Manhattan,11201,2995,2696,1.1,Condo,1,1,https://www.citysnap.com/NY/New-York-City/46-Henry-Street/property/29457621,0.990311019
+"8 Hancock Street #1, Brooklyn, NY 11216",Brooklyn,11216,3300,2696,1.2,Multi-Family,1,0,https://www.citysnap.com/NY/Brooklyn/8-Hancock-Street/property/16431039,0.99747173
+"154 Washington Avenue #PARLOR, Brooklyn, NY 11205",Brooklyn,11205,3500,2696,1.3,Condo,1,1,https://www.citysnap.com/NY/Brooklyn/154-Washington-Avenue/property/33713051,0.97202731
+"561 Pacific Street #203, New York City, NY 11217",Manhattan,11217,4450,2696,1.7,Condo,1,1,https://www.citysnap.com/NY/New-York-City/561-Pacific-Street/property/16616613,0.865525868
+"99 John Street #310, New York, NY 10038",Manhattan,10038,3995,2696,1.5,Condo,1,1,https://www.citysnap.com/NY/New-York/99-John-Street/property/400029941665,0.932570036
+"20 Pine Street #501, New York, NY 10005",Manhattan,10005,7000,2696,2.6,Condo,1,2,https://www.citysnap.com/NY/New-York/20-Pine-Street/property/12186595,0.010389305
+"110 Livingston Street #17J, Brooklyn, NY 11201",Brooklyn,11201,4800,2696,1.8,Condo,1,1,https://www.citysnap.com/NY/Brooklyn/110-Livingston-Street/property/400019637225,0.793512344
+"44 S Oxford Street #3, Brooklyn, NY 11217",Brooklyn,11217,3350,2696,1.2,Condo,1,1,https://www.citysnap.com/NY/Brooklyn/44-S-Oxford-Street/property/21724560,0.983019048
+"373 Wythe Avenue #2 A, New York City, NY 11249",Manhattan,11249,3400,2696,1.3,Condo,1,1,https://www.citysnap.com/NY/New-York-City/373-Wythe-Avenue/property/33702850,0.97406137
+"373 Wythe Avenue #6-C, New York City, NY 11249",Manhattan,11249,3800,2696,1.4,Condo,1,1,https://www.citysnap.com/NY/New-York-City/373-Wythe-Avenue/property/21742880,0.954642981
+"450 Grand Avenue #2 D, Clinton Hill, NY 11238",Clinton Hill,11238,3900,2696,1.4,Condo,1,1,https://www.citysnap.com/NY/Clinton-Hill/450-Grand-Avenue/property/29762286,0.951162515
+"216 6th Avenue #1D, Brooklyn, NY 11215",Brooklyn,11215,3500,2696,1.3,Condo,1,0,https://www.citysnap.com/NY/Brooklyn/216-6th-Avenue/property/16482139,0.996142578
+"85 W Broadway #10N, New York, NY 10007",Manhattan,10007,5250,2696,1.9,Condo,1,1,https://www.citysnap.com/NY/New-York/85-W-Broadway/property/400031460097,0.640199226
+"249 Willoughby Ave #6 A, Clinton Hill, NY 11205",Clinton Hill,11205,3695,2696,1.4,Condo,1,1,https://www.citysnap.com/NY/Clinton-Hill/249-Willoughby-Avenue/property/29071929,0.958042603
+"56 Pine Street #10D, New York, NY 10005",Manhattan,10005,3500,2696,1.3,Condo,1,1,https://www.citysnap.com/NY/New-York/56-Pine-Street/property/400020495303,0.974835492
+"1202 Fulton Street #2F, Brooklyn, NY 11216",Brooklyn,11216,2529,2696,0.9,Condo,1,1,https://www.citysnap.com/NY/Brooklyn/1202-Fulton-Street/property/16306835,0.995395082
+"491 Myrtle Avenue #4-A, Brooklyn, NY 11205",Brooklyn,11205,3008,2696,1.1,Detached,1,1,https://www.citysnap.com/NY/Brooklyn/491-Myrtle-Avenue/property/16479895,0.988650062
+"7 Dey Street #21 F, New York, NY 10007",Manhattan,10007,6100,2696,2.3,Condo,1,1,https://www.citysnap.com/NY/New-York/7-Dey-Street/property/33694473,0.239075997
+"491 Myrtle Avenue #4-B, Brooklyn, NY 11205",Brooklyn,11205,3090,2696,1.1,Detached,1,1,https://www.citysnap.com/NY/Brooklyn/491-Myrtle-Avenue/property/16479897,0.987913522
+"7 Dey Street #25A, New York, NY 10007",Manhattan,10007,6150,2696,2.3,Condo,1,1,https://www.citysnap.com/NY/New-York/7-Dey-Street/property/21707928,0.232090436
+"85 N 3rd Street #305, Brooklyn, NY 11249",Brooklyn,11249,7995,2696,3,Condo,1,1,https://www.citysnap.com/NY/Brooklyn/85-N-3rd-Street/property/16223955,0.010922393
+"250 Pacific Street #25, Brooklyn, NY 11201",Brooklyn,11201,4750,3027,1.6,Condo,2,1,https://www.citysnap.com/NY/Brooklyn/250-Pacific-Street/property/16333266,0.99569851
+"436 Albee Square #21 C, Brooklyn, NY 11201",Brooklyn,11201,4860,3027,1.6,Condo,2,2,https://www.citysnap.com/NY/Brooklyn/436-Albee-Square/property/33763682,0.966216083
+"53 Ludlow Street #15, New York, NY 10002",Manhattan,10002,4195,3027,1.4,Condo,2,1,https://www.citysnap.com/NY/New-York/53-Ludlow-Street/property/33763947,0.997982245
+"592 Vanderbilt Avenue #4L, Proshei, NY 11238",Prospect Heights,11238,4695,3027,1.6,Condo,2,1,https://www.citysnap.com/NY/Proshei/592-Vanderbilt-Avenue/property/16414747,0.995214366
+"75 Wall Street #38A, New York, NY 10005",Manhattan,10005,6950,3027,2.3,Condo,2,2,https://www.citysnap.com/NY/New-York/75-Wall-Street/property/400029941072,0.452727976
+"613 Baltic Street #3D, Parkslope, NY 11217",Parkslope,11217,6750,3027,2.2,Condo,2,2,https://www.citysnap.com/NY/Parkslope/613-Baltic-Street/property/16487597,0.562383349
+"892 Bergen Street #3-C, Brooklyn, NY 11238",Brooklyn,11238,4800,3027,1.6,Condo,2,2,https://www.citysnap.com/NY/Brooklyn/892-Bergen-Street/property/16348839,0.962678092
+"471 Carroll Street #2 L, Brooklyn, NY 11215",Brooklyn,11215,2800,3027,0.9,Condo,2,0,https://www.citysnap.com/NY/Brooklyn/471-Carroll-Street/property/33765157,0.999977313
+"428 Henry Street #3, Brooklyn, NY 11231",Brooklyn,11231,6750,3027,2.2,Detached,2,2,https://www.citysnap.com/NY/Brooklyn/428-Henry-Street/property/16480182,0.531324818
+"86 Carroll Street #4 TF, Brooklyn, NY 11231",Brooklyn,11231,4000,3027,1.3,Condo,2,1,https://www.citysnap.com/NY/Brooklyn/86-Carroll-Street/property/16503355,0.998748846
+"94 Prospect Place #2, Brooklyn, NY 11217",Brooklyn,11217,5995,3027,2,Condo,2,1,https://www.citysnap.com/NY/Brooklyn/94-Prospect-Place/property/12345173,0.967060863
+"374 Atlantic Avenue #3, Brooklyn, NY 11217",Brooklyn,11217,4950,3027,1.6,Condo,2,1,https://www.citysnap.com/NY/Brooklyn/374-Atlantic-Avenue/property/33751914,0.994856542
+"111 Fulton Street #319, New York, NY 10038",Manhattan,10038,6495,3027,2.1,Condo,2,2,https://www.citysnap.com/NY/New-York/111-Fulton-Street/property/400029942175,0.643808487
+"143 4 Th Avenue #2 A, New York City, NY 11217",Manhattan,11217,3750,3027,1.2,Condo,2,1,https://www.citysnap.com/NY/New-York-City/143-4-Th-Avenue/property/22466422,0.999304653
+"123 Washington Street #45B, New York, NY 10006",Manhattan,10006,9000,3027,3,Condo,2,2,https://www.citysnap.com/NY/New-York/123-Washington-Street/property/16411246,0.022549831
+"677 Vanderbilt Avenue #4 C, Brooklyn, NY 11238",Brooklyn,11238,3500,3027,1.2,Condo,2,1,https://www.citysnap.com/NY/Brooklyn/677-Vanderbilt-Avenue/property/33757345,0.999350716
+"20 River Terrace #10 A, New York, NY 10282",Manhattan,10282,7995,3027,2.6,Condo,2,2,https://www.citysnap.com/NY/New-York/20-River-Terrace/property/23098664,0.128422304
+"1253 Pacific Street #4, Brooklyn, NY 11216",Brooklyn,11216,3200,3027,1.1,Condo,2,1,https://www.citysnap.com/NY/Brooklyn/1253-Pacific-Street/property/16378073,0.999606633
+"7 4th Place #4, Brooklyn, NY 11231",Brooklyn,11231,7000,3027,2.3,Co-op,2,0,https://www.citysnap.com/NY/Brooklyn/7-4th-Place/property/400019639788,0.975261527
+"367 Waverly Avenue #2 D, Brooklyn, NY 11238",Brooklyn,11238,3950,3027,1.3,Condo,2,1,https://www.citysnap.com/NY/Brooklyn/367-Waverly-Avenue/property/30041127,0.998796395
+"948 Atlantic Avenue #2, Brooklyn, NY 11238",Brooklyn,11238,3850,3027,1.3,Commercial,2,1,https://www.citysnap.com/NY/Brooklyn/948-Atlantic-Avenue/property/33748254,0.998886147
+"77 8th Avenue #DUPLEX, Brooklyn, NY 11215",Brooklyn,11215,8000,3027,2.6,Co-op,2,0,https://www.citysnap.com/NY/Brooklyn/77-8th-Avenue/property/33748244,0.890183036
+"196 Willoughby Street #28 M, Brooklyn, NY 11201",Brooklyn,11201,7114,3027,2.4,Condo,2,2,https://www.citysnap.com/NY/Brooklyn/196-Willoughby-Street/property/24347354,0.367168316
+"53 Park Place #4 D, New York, NY 10007",Manhattan,10007,5850,3027,1.9,Condo,2,1,https://www.citysnap.com/NY/New-York/53-Park-Place/property/29298211,0.97424227
+"333 Rector Place #1109, New York, NY 10280",Manhattan,10280,8500,3027,2.8,Condo,2,2,https://www.citysnap.com/NY/New-York/333-Rector-Place/property/16340098,0.054990218
+"380 S 4 Th Street #10, New York City, NY 11211",Manhattan,11211,3895,3027,1.3,Condo,2,1,https://www.citysnap.com/NY/New-York-City/380-S-4-Th-Street/property/28714992,0.998846617
+"441 Metropolitan Avenue #2, Brooklyn, NY 11211",Brooklyn,11211,6500,3027,2.1,Condo,2,1,https://www.citysnap.com/NY/Brooklyn/441-Metropolitan-Avenue/property/33741557,0.930460819
+"85 Adams Street #8 A, Dumbo, NY 11201",Dumbo,11201,6900,3027,2.3,Condo,2,2,https://www.citysnap.com/NY/Dumbo/85-Adams-Street/property/31291631,0.472596216
+"252 South Street #69 F, New York, NY 10002",Manhattan,10002,9450,3027,3.1,Condo,2,2,https://www.citysnap.com/NY/New-York/252-South-Street/property/33740826,0.011592339
+"507 Clinton Avenue #1, Brooklyn, NY 11238",Brooklyn,11238,8995,3027,3,Co-op,2,0,https://www.citysnap.com/NY/Brooklyn/507-Clinton-Avenue/property/21726125,0.561224188
+"20 River Terrace #5L, New York, NY 10282",Manhattan,10282,10500,3027,3.5,Co-op,2,2,https://www.citysnap.com/NY/New-York/20-River-Terrace/property/21705545,0.001877128
+"99 John Street #1810, New York, NY 10038",Manhattan,10038,5650,3027,1.9,Condo,2,1,https://www.citysnap.com/NY/New-York/99-John-Street/property/400029941974,0.977914898
+"80 John Street #3B, New York, NY 10038",Manhattan,10038,6500,3027,2.1,Condo,2,2,https://www.citysnap.com/NY/New-York/80-John-Street/property/400020495511,0.642918398
+"196 Willoughby Street #13K, Brooklyn, NY 11201",Brooklyn,11201,6762,3027,2.2,Condo,2,2,https://www.citysnap.com/NY/Brooklyn/196-Willoughby-Street/property/21709263,0.566102983
+"264 Water Street #3A, New York, NY 11201",Manhattan,11201,7500,3027,2.5,Condo,2,2,https://www.citysnap.com/NY/New-York/264-Water-Street/property/16056045,0.247406862
+"196 Willoughby Street #19-R, Brooklyn, NY 11201",Brooklyn,11201,7037,3027,2.3,Condo,2,2,https://www.citysnap.com/NY/Brooklyn/196-Willoughby-Street/property/29344971,0.446204648
+"540 Fulton Street #14-G, Brooklyn, NY 11201",Brooklyn,11201,5750,3027,1.9,Condo,2,2,https://www.citysnap.com/NY/Brooklyn/540-Fulton-Street/property/29913605,0.864948409
+"209 Quincy Street #2R, Bed-Stuy, NY 11216",Bedford-Stuyvesant,11216,4695,3027,1.6,Condo,2,2,https://www.citysnap.com/NY/Bed-Stuy/209-Quincy-Street/property/16334212,0.965497229
+"125 S 1st Street #3, Brooklyn, NY 11249",Brooklyn,11249,7000,3027,2.3,Condo,2,2,https://www.citysnap.com/NY/Brooklyn/125-S-1st-Street/property/17258674,0.416507704
+"150 Nassau Street #12D, New York, NY 10038",Manhattan,10038,9000,3027,3,Condo,2,2,https://www.citysnap.com/NY/New-York/150-Nassau-Street/property/400020495996,0.022549831
+"77 Washington Pl #3, New York, NY 10011",Manhattan,10011,12000,3027,4,Condo,2,2,https://www.citysnap.com/NY/New-York/77-Washington-Place/property/16601837,0.000126649
+"116 John Street #2803, New York, NY 10038",Manhattan,10038,4950,3027,1.6,Condo,2,2,https://www.citysnap.com/NY/New-York/116-John-Street/property/33696823,0.958264031
+"252 South Street #35 A, New York, NY 10002",Manhattan,10002,8800,3027,2.9,Condo,2,2,https://www.citysnap.com/NY/New-York/252-South-Street/property/23834997,0.032164697
+"753 Carroll Street #1, New York, NY 11215",Manhattan,11215,3650,3027,1.2,Condo,2,0,https://www.citysnap.com/NY/New-York/753-Carroll-Street/property/16450257,0.999901794
+"30 West St #12 E, Out of Area Town, NY 10004",Out of Area Town,10004,9500,3027,3.1,Condo,2,0,https://www.citysnap.com/NY/Out-of-Area-Town/30-West-Street/property/33703059,0.397881127
+"50 West Street #38-B, New York, NY 10006",Manhattan,10006,13000,3027,4.3,Condo,2,0,https://www.citysnap.com/NY/New-York/50-West-Street/property/16437382,0.001737951
+"150 Hicks Street #4B, New York City, NY 11201",Manhattan,11201,4500,3027,1.5,Condo,2,1,https://www.citysnap.com/NY/New-York-City/150-Hicks-Street/property/16503684,0.997287242
+"370 Baltic Street #4R, Brooklyn, NY 11201",Brooklyn,11201,5500,3027,1.8,Condo,2,2,https://www.citysnap.com/NY/Brooklyn/370-Baltic-Street/property/16468629,0.910487581
+"38 Grace Court #1, Brooklyn, NY 11201",Brooklyn,11201,7000,3027,2.3,Co-op,2,0,https://www.citysnap.com/NY/Brooklyn/38-Grace-Court/property/33700904,0.978629915
+"150 5th Avenue #1, New York City, NY 11217",Manhattan,11217,4495,3027,1.5,Condo,2,1,https://www.citysnap.com/NY/New-York-City/150-5th-Avenue/property/25372178,0.997231048
+"55 Wall Street #730, New York, NY 10005",Manhattan,10005,8900,3027,2.9,Condo,2,2,https://www.citysnap.com/NY/New-York/55-Wall-Street/listing/175228043,0.035082861
+"485 1st Street #1, Brooklyn, NY 11215",Brooklyn,11215,7800,3777,2.1,Multi-Family,3,2,https://www.citysnap.com/NY/Brooklyn/485-1st-Street/property/33762281,0.999987054
+"429 Sterling Place #3-L, Brooklyn, NY 11238",Brooklyn,11238,4750,3777,1.3,Condo,3,1,https://www.citysnap.com/NY/Brooklyn/429-Sterling-Place/property/16420669,0.999999981
+"101 Wall Street #19B, New York, NY 10005",Manhattan,10005,12750,3777,3.4,Condo,3,3,https://www.citysnap.com/NY/New-York/101-Wall-Street/property/16458455,0.883399266
+"30 Park Place #DX48D/49D, New York, NY 10007",Manhattan,10007,28500,3777,7.5,Condo,3,0,https://www.citysnap.com/NY/New-York/30-Park-Place/property/31457065,2.26E-07
+"794 Classon Avenue #6 B, Brooklyn, NY 11238",Brooklyn,11238,5400,3777,1.4,Condo,3,2,https://www.citysnap.com/NY/Brooklyn/794-Classon-Avenue/property/33754168,0.999999693
+"805 Washington Avenue #6D, Proshei, NY 11238",Prospect Heights,11238,8995,3777,2.4,Condo,3,0,https://www.citysnap.com/NY/Proshei/805-Washington-Avenue/property/16629107,0.999998674
+"100 Barclay Street #11Q, New York, NY 10007",Manhattan,10007,22000,3777,5.8,Condo,3,0,https://www.citysnap.com/NY/New-York/100-Barclay-Street/property/16560008,0.003359613
+"948 Atlantic Avenue #3, Brooklyn, NY 11238",Brooklyn,11238,3950,3777,1,Commercial,3,1,https://www.citysnap.com/NY/Brooklyn/948-Atlantic-Avenue/property/33749122,0.999999995
+"102 Pierrepont Street #DUPLEX, New York, NY 11201",Manhattan,11201,9250,3777,2.4,Multi-Family,3,2,https://www.citysnap.com/NY/New-York/102-Pierrepont-Street/property/33760418,0.999923156
+"80 Metropolitan Avenue #3 KI, New York City, NY 11249",Manhattan,11249,9995,3777,2.6,Condo,3,3,https://www.citysnap.com/NY/New-York-City/80-Metropolitan-Avenue/property/33760605,0.9979804
+"10 Grand Avenue #3-3, Clinton Hill, NY 11205",Clinton Hill,11205,4988,3777,1.3,Condo,3,2,https://www.citysnap.com/NY/Clinton-Hill/10-Grand-Avenue/property/33760784,0.99999983
+"75 Poplar Street #3E, Brooklyn, NY 11201",Brooklyn,11201,10500,3777,2.8,Condo,3,2,https://www.citysnap.com/NY/Brooklyn/75-Poplar-Street/property/400019636032,0.999406765
+"69 Fort Greene Place #2, Brooklyn, NY 11217",Brooklyn,11217,7400,3777,2,Detached,3,0,https://www.citysnap.com/NY/Brooklyn/69-Fort-Greene-Place/property/33743307,0.999999884
+"91 Leonard Street #12C, New York, NY 10013",Manhattan,10013,18500,3777,4.9,Condo,3,0,https://www.citysnap.com/NY/New-York/91-Leonard-Street/property/16623937,0.364239287
+"37 4th Place #1, Brooklyn, NY 11231",Brooklyn,11231,7500,3777,2,Condo,3,0,https://www.citysnap.com/NY/Brooklyn/37-4th-Place/property/33741456,0.999999858
+"228 Clinton Street #PH, Brooklyn, NY 11201",Brooklyn,11201,9800,3777,2.6,Detached,3,2,https://www.citysnap.com/NY/Brooklyn/228-Clinton-Street/property/16398214,0.999798532
+"621 Washington Avenue #3, Brooklyn, NY 11238",Brooklyn,11238,4000,3777,1.1,Condo,3,1,https://www.citysnap.com/NY/Brooklyn/621-Washington-Avenue/property/33727874,0.999999994
+"648 Bergen Street #1A, Brooklyn, NY 11238",Brooklyn,11238,11250,3777,3,Condo,3,3,https://www.citysnap.com/NY/Brooklyn/648-Bergen-Street/property/16819853,0.98455084
+"252 South Street #21 D, New York, NY 10002",Manhattan,10002,9980,3777,2.6,Condo,3,2,https://www.citysnap.com/NY/New-York/252-South-Street/property/31074495,0.99971463
+"136 Hicks Street #1H, Brooklyn, NY 11201",Brooklyn,11201,7500,3777,2,Condo,3,1,https://www.citysnap.com/NY/Brooklyn/136-Hicks-Street/property/16570632,0.999999092
+"575 Franklin Avenue #4, Brooklyn, NY 11238",Brooklyn,11238,3200,3777,0.8,Condo,3,1,https://www.citysnap.com/NY/Brooklyn/575-Franklin-Avenue/property/33699255,0.999999999
+"150 Nassau Street #19A, New York, NY 10038",Manhattan,10038,11500,3777,3,Condo,3,0,https://www.citysnap.com/NY/New-York/150-Nassau-Street/property/400020496021,0.999953587
+"314 Degraw Street #3, Brooklyn, NY 11231",Brooklyn,11231,10000,3777,2.6,Condo,3,2,https://www.citysnap.com/NY/Brooklyn/314-Degraw-Street/property/16615981,0.999726706
+"207 Madison Street #18, New York, NY 10002",Manhattan,10002,4200,3777,1.1,Condo,3,1,https://www.citysnap.com/NY/New-York/207-Madison-Street/property/16334491,0.999999992
+"181 Front Street #2J, Brooklyn, NY 11201",Brooklyn,11201,7443,3777,2,Condo,3,2,https://www.citysnap.com/NY/Brooklyn/181-Front-Street/property/16551891,0.999993542
+"794 Classon Avenue #6 A, Brooklyn, NY 11238",Brooklyn,11238,5400,3777,1.4,Condo,3,2,https://www.citysnap.com/NY/Brooklyn/794-Classon-Avenue/property/33693690,0.999999693
+"407 Myrtle Avenue #STORE, Fortgrne, NY 11205",Fort Greene,11205,7800,2624,3,Condo,Studio,1,https://www.citysnap.com/NY/Fortgrne/407-Myrtle-Avenue/property/33762188,0.008000942
+"948 Atlantic Avenue #1, Brooklyn, NY 11238",Brooklyn,11238,7300,2624,2.8,Commercial,Studio,0,https://www.citysnap.com/NY/Brooklyn/948-Atlantic-Avenue/property/33762313,0.131330357
+"531 Vanderbilt Avenue #5C, Brooklyn, NY 11238",Brooklyn,11238,2950,2624,1.1,Condo,Studio,1,https://www.citysnap.com/NY/Brooklyn/531-Vanderbilt-Avenue/property/16388252,0.982819165
+"48 Livingston Street #2R, New York City, NY 11201",Manhattan,11201,2080,2624,0.8,Condo,Studio,1,https://www.citysnap.com/NY/New-York-City/48-Livingston-Street/property/21726919,0.996588951
+"55 Saint Marks Avenue #7, Brooklyn, NY 11217",Brooklyn,11217,2500,2624,1,Condo,Studio,1,https://www.citysnap.com/NY/Brooklyn/55-Saint-Marks-Avenue/property/16449698,0.991754179
+"99 John Street #1225, New York, NY 10038",Manhattan,10038,3800,2624,1.4,Condo,Studio,1,https://www.citysnap.com/NY/New-York/99-John-Street/property/400029941912,0.929646721
+"15 Broad Street #1008, New York, NY 10005",Manhattan,10005,4000,2624,1.5,Condo,Studio,1,https://www.citysnap.com/NY/New-York/15-Broad-Street/property/400020494949,0.906035133
+"76 Douglass Street #4F, New York, NY 11231",Manhattan,11231,2895,2624,1.1,Condo,Studio,1,https://www.citysnap.com/NY/New-York/76-Douglass-Street/property/16376042,0.983525061
+"93 Worth Street #204, New York, NY 10013",Manhattan,10013,4600,2624,1.8,Condo,Studio,1,https://www.citysnap.com/NY/New-York/93-Worth-Street/property/16329834,0.708082038
+"196 Willoughby Street #33-G, Brooklyn, NY 11201",Brooklyn,11201,5016,2624,1.9,Condo,Studio,1,https://www.citysnap.com/NY/Brooklyn/196-Willoughby-Street/property/33189573,0.609335639
+"420 Kent Avenue #610, New York, NY 11249",Manhattan,11249,3508,2624,1.3,Condo,Studio,1,https://www.citysnap.com/NY/New-York/420-Kent-Avenue/property/21721506,0.955910858
+"420 Kent Avenue #1610, New York, NY 11249",Manhattan,11249,3427,2624,1.3,Condo,Studio,1,https://www.citysnap.com/NY/New-York/420-Kent-Avenue/property/16632234,0.958484859
+"196 Willoughby Street #17-U, Brooklyn, NY 11201",Brooklyn,11201,4236,2624,1.6,Condo,Studio,1,https://www.citysnap.com/NY/Brooklyn/196-Willoughby-Street/property/33735448,0.864779271
+"504 Myrtle Avenue #4-X, Brooklyn, NY 11205",Brooklyn,11205,2890,2624,1.1,Condo,Studio,1,https://www.citysnap.com/NY/Brooklyn/504-Myrtle-Avenue/property/16584934,0.983587801
+"420 Kent Avenue #629, New York, NY 11249",Manhattan,11249,3832,2624,1.5,Condo,Studio,1,https://www.citysnap.com/NY/New-York/420-Kent-Avenue/property/33736958,0.907863446
+"20 Montgomery Place #2F, New York City, NY 11215",Manhattan,11215,2600,2624,1,Condo,Studio,1,https://www.citysnap.com/NY/New-York-City/20-Montgomery-Place/property/16324434,0.989917359
+"20 West Street #34G, New York, NY 10004",Manhattan,10004,3000,2624,1.1,Condo,Studio,1,https://www.citysnap.com/NY/New-York/20-West-Street/property/16317941,0.982151704
+"20 West Street #14K, New York, NY 10004",Manhattan,10004,3500,2624,1.3,Condo,Studio,1,https://www.citysnap.com/NY/New-York/20-West-Street/property/16306099,0.956171709
+"333 Rector Place #PH3W, New York, NY 10280",Manhattan,10280,4500,2624,1.7,Condo,Studio,1,https://www.citysnap.com/NY/New-York/333-Rector-Place/property/16462901,0.774220605
+"180 Franklin Avenue #316, Brooklyn, NY 11205",Brooklyn,11205,3400,2624,1.3,Condo,Studio,1,https://www.citysnap.com/NY/Brooklyn/180-Franklin-Avenue/property/16490931,0.95931046
+"101 Lafayette Avenue #2H, Brooklyn, NY 11217",Brooklyn,11217,2750,2624,1,Co-op,Studio,1,https://www.citysnap.com/NY/Brooklyn/101-Lafayette-Avenue/property/16619644,0.990006775
+"490 Myrtle Avenue #6E, Brooklyn, NY 11205",Brooklyn,11205,3050,2624,1.2,Condo,Studio,1,https://www.citysnap.com/NY/Brooklyn/490-Myrtle-Avenue/property/16377590,0.975882849
+"57 E 3rd St #3-C, New York, NY 10003",Manhattan,10003,2795,2624,1.1,Condo,Studio,1,https://www.citysnap.com/NY/New-York/57-E-3rd-Street/property/16301336,0.98473618
+"20 West Street #11H, New York, NY 10004",Manhattan,10004,3500,2624,1.3,Condo,Studio,1,https://www.citysnap.com/NY/New-York/20-West-Street/property/16406156,0.956171709
+"7 Dey Street #11G, New York, NY 10007",Manhattan,10007,5031,2624,1.9,Condo,Studio,1,https://www.citysnap.com/NY/New-York/7-Dey-Street/property/21715108,0.5697042
+"196 Willoughby Street #21-KA, Brooklyn, NY 11201",Brooklyn,11201,4761,2624,1.8,Condo,Studio,1,https://www.citysnap.com/NY/Brooklyn/196-Willoughby-Street/property/29527965,0.71320263
+"540 Fulton Street #19-B, Brooklyn, NY 11201",Brooklyn,11201,3402,2624,1.3,Condo,Studio,1,https://www.citysnap.com/NY/Brooklyn/540-Fulton-Street/property/28812549,0.964719516
+"540 Fulton Street #23-D, Brooklyn, NY 11201",Brooklyn,11201,3474,2624,1.3,Condo,Studio,1,https://www.citysnap.com/NY/Brooklyn/540-Fulton-Street/property/33729355,0.962768068
+"540 Fulton Street #36-C, Brooklyn, NY 11201",Brooklyn,11201,3541,2624,1.3,Condo,Studio,1,https://www.citysnap.com/NY/Brooklyn/540-Fulton-Street/property/33729334,0.960859232
+"225 Rector Place #8E, New York, NY 10280",Manhattan,10280,4200,2624,1.6,Condo,Studio,1,https://www.citysnap.com/NY/New-York/225-Rector-Place/property/400020492923,0.84988268
+"20 Pine Street #2405, New York, NY 10005",Manhattan,10005,4100,2624,1.6,Condo,Studio,1,https://www.citysnap.com/NY/New-York/20-Pine-Street/property/16326428,0.872132391
+"504 Myrtle Avenue #2-K, Brooklyn, NY 11205",Brooklyn,11205,3200,2624,1.2,Condo,Studio,1,https://www.citysnap.com/NY/Brooklyn/504-Myrtle-Avenue/property/21712171,0.972986691
+"504 Myrtle Avenue #6-X, Brooklyn, NY 11205",Brooklyn,11205,2825,2624,1.1,Condo,Studio,1,https://www.citysnap.com/NY/Brooklyn/504-Myrtle-Avenue/property/33706491,0.984382351
+"40 Broad Street #28C, New York, NY 10004",Manhattan,10004,4200,2624,1.6,Condo,Studio,1,https://www.citysnap.com/NY/New-York/40-Broad-Street/property/400029940709,0.84988268
+"21 S End Avenue #PH2BB, New York, NY 10280",Manhattan,10280,4000,2624,1.5,Condo,Studio,1,https://www.citysnap.com/NY/New-York/21-S-End-Avenue/property/400020493986,0.896365523
+"75 Wall Street #28D, New York, NY 10005",Manhattan,10005,4500,2624,1.7,Condo,Studio,1,https://www.citysnap.com/NY/New-York/75-Wall-Street/property/400029940916,0.792650622
+"136 Willow Street #2 R, Brooklyn, NY 11201",Brooklyn,11201,2200,2624,0.8,Condo,Studio,1,https://www.citysnap.com/NY/Brooklyn/136-Willow-Street/property/33711191,0.996257365
+"20 Pine Street #607, New York, NY 10005",Manhattan,10005,3800,2624,1.4,Condo,Studio,1,https://www.citysnap.com/NY/New-York/20-Pine-Street/property/16304780,0.936431252
+"138 Willoughby Street #25G, Brooklyn, NY 11201",Brooklyn,11201,3995,2624,1.5,Co-op,Studio,1,https://www.citysnap.com/NY/Brooklyn/138-Willoughby-Street/property/19961691,0.909798164
+"834 Pacific Street #518, New York City, NY 11238",Manhattan,11238,3400,2624,1.3,Condo,Studio,1,https://www.citysnap.com/NY/New-York-City/834-Pacific-Street/property/21714712,0.95931046
+"15 William Street #35D, New York, NY 10005",Manhattan,10005,4500,2624,1.7,Condo,Studio,1,https://www.citysnap.com/NY/New-York/15-William-Street/property/400031459995,0.792650622
+"75 Clinton Street #8E, Brooklyn, NY 11201",Brooklyn,11201,4205,2624,1.6,Condo,Studio,1,https://www.citysnap.com/NY/Brooklyn/75-Clinton-Street/property/16440045,0.867567173
+"499 Park Place #3-F, Brooklyn, NY 11238",Brooklyn,11238,2271,2624,0.9,Condo,Studio,1,https://www.citysnap.com/NY/Brooklyn/499-Park-Place/property/33693942,0.994004239
+"11 Hoyt Street #17F, Brooklyn, NY 11201",Brooklyn,11201,3750,2624,1.4,Condo,Studio,1,https://www.citysnap.com/NY/Brooklyn/11-Hoyt-Street/property/21720596,0.941026526
+"49 Willow Street #1G, New York, NY 11201",Manhattan,11201,2750,2624,1,Condo,Studio,1,https://www.citysnap.com/NY/New-York/49-Willow-Street/property/21719762,0.990245683
