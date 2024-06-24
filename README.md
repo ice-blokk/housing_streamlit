@@ -1,4 +1,4 @@
-Link to streamlit: housingmatchnyc.streamlit.app
+Link to streamlit: [housingmatchnyc.streamlit.app](https://housingmatchnyc.streamlit.app/)
 
 Currently pulling from file: user_citysnap_listings_with_probability.csv
 
