@@ -49,7 +49,7 @@ if st.button('Submit'):
     for bor in borough:
         filtered_df = df[df['Neighborhood'] == bor]
         
-        result = filtered_df.head(3)
+        result = filtered_df
 
         # Make the URLs in the 'URL' column clickable
         def make_clickable(val):
