@@ -62,8 +62,8 @@ if st.button('Submit'):
         st.markdown(result, unsafe_allow_html=True)
 
 
-st.markdown('---')
-st.text_input("""Do you want to receive personalized listings everyday and make a difference? 
-              We’re looking for your help to rate listings so that we can serve you better.  Sign up!""",'')
+# st.markdown('---')
+# st.text_input("""Do you want to receive personalized listings everyday and make a difference? 
+#               We’re looking for your help to rate listings so that we can serve you better.  Sign up!""",'')
 
-st.button("Submit Email")
+# st.button("Submit Email")
