@@ -1,9 +1,12 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+from IPython.display import HTML
 
 st.title('HousingMatch')
-st.markdown('Match housing voucher holders with listings')
+st.info("""Hello there!  We’re delighted you’re here!  
+        Tell us what you’re looking for below, and see a curated list of 
+        properties that fit within your EHV voucher limit.""")
 
 st.header('Criteria')
 col1, col2, col3= st.columns(3)
@@ -27,33 +30,40 @@ with col2:
 with col3:
     baths = st.multiselect(
     "# Baths",
-    ["1", "2", "3", "4+"])
-
-# for bed in beds:
-#     if beds[bed] != 'Studio':
-#         beds[bed] = beds[:1]
-
-# if borough != '' and beds != '':
-#     if beds == 'Studio':
-#         st.write("Looking for ", beds, ' apartments in ', borough)
-#     else:
-#         st.write("Looking for ", beds, ' bed apartments in ', borough)
+    [1, 2, 3, 4])
 
 if st.button('Submit'):
     df = pd.read_csv('user_citysnap_listings_with_probability.csv')
 
     df = df.sort_values(by='Probability', ascending=False)
-    # df = df.drop(columns=['Probability'])
-    #df = df[df['Neighborhood'].str.contains(borough, case=False)]
-    #df = df[df['# Beds'].str.contains(beds, case=False)]
 
     df = df.drop(columns=['Postal Code','Payment Standard (PS)', 'Ratio', 'Property Type', 'Probability'])
+
     df = df[df.Neighborhood.isin(list(borough))]
     df = df[df['# Beds'].isin(list(beds))]
+    df = df[df['# Baths'].isin(list(baths))]
 
     # df = df.to_string(index=False) # drop index
 
-    result = df.head(30)
-    #result = result.to_string(index=False) # drop index
 
-    st.write(result)
+    for bor in borough:
+        filtered_df = df[df['Neighborhood'] == bor]
+        
+        result = filtered_df.head(3)
+
+        # Make the URLs in the 'URL' column clickable
+        def make_clickable(val):
+            return f'<a href="{val}" target="_blank">{val}</a>'
+        result['URL'] = result['URL'].apply(make_clickable)
+
+        result = result.to_html(index=False, escape=False) # convert df to html and remove index
+
+        st.markdown(f"<h3>Listings for {bor}:</h3>", unsafe_allow_html=True)
+        st.markdown(result, unsafe_allow_html=True)
+
+
+st.markdown('---')
+st.text_input("""Do you want to receive personalized listings everyday and make a difference? 
+              We’re looking for your help to rate listings so that we can serve you better.  Sign up!""",'')
+
+st.button("Submit Email")
