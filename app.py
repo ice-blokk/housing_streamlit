@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-from IPython.display import HTML
 
 st.title('HousingMatch')
 st.info("""Hello there!  We’re delighted you’re here!  
