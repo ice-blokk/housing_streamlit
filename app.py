@@ -37,7 +37,7 @@ if st.button('Submit'):
 
     df = df.sort_values(by='Probability', ascending=False)
 
-    df = df.drop(columns=['Postal Code','Payment Standard (PS)', 'Ratio', 'Property Type', 'Probability'])
+    df = df.drop(columns=['Postal Code','Payment Standard (PS)', 'Ratio', 'Property Type'])
 
     df = df[df.Neighborhood.isin(list(borough))]
     df = df[df['# Beds'].isin(list(beds))]
