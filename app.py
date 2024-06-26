@@ -17,7 +17,7 @@ with col1:
     # borough = st.text_input("Borough", '')
     borough = st.multiselect(
         "Borough/Neighborhood",
-        ['Manhattan', 'Brooklyn']
+        ['Manhattan', 'Brooklyn', 'Upper West Side']
     )
 with col2:
     # st.text('Pepal characteristics')
@@ -33,28 +33,32 @@ with col3:
     [1, 2, 3, 4])
 
 if st.button('Submit'):
-    df = pd.read_csv('user_citysnap_listings_with_probability.csv')
+    df = pd.read_csv('ActiveListingsAsOfJun24_with_probability.csv')
 
     df = df.sort_values(by='Probability', ascending=False)
 
-    df = df.drop(columns=['Postal Code','Payment Standard (PS)', 'Ratio', 'Property Type'])
+    df = df.drop(columns=['Months Free', 'Owner Paid', 'Rent Stabilized',
+                          'Postal Code','Payment Standard (PS)', 'Ratio', 'Parent Neighborhood',	
+                          'Neighborhood3', 'Property Manager', 'Number of Floors', 'Number of Units',	
+                          'Year Built',	'Active', 'Amenities', 'Unnamed: 22', 'Unnamed: 23',	
+                          'Unnamed: 24', 'Unnamed: 25', 'Unnamed: 26', 'Unnamed: 27',	
+                          'Unnamed: 28', 'Unnamed: 29', 'Unnamed: 30', 'Unnamed: 31',	
+                          'Unnamed: 32', 'Unnamed: 33', 'Unnamed: 34'])
 
     df = df[df.Neighborhood.isin(list(borough))]
     df = df[df['# Beds'].isin(list(beds))]
     df = df[df['# Baths'].isin(list(baths))]
-
-    # df = df.to_string(index=False) # drop index
-
 
     for bor in borough:
         filtered_df = df[df['Neighborhood'] == bor]
         
         result = filtered_df
 
-        # Make the URLs in the 'URL' column clickable
-        def make_clickable(val):
-            return f'<a href="{val}" target="_blank">{val}</a>'
-        result['URL'] = result['URL'].apply(make_clickable)
+        # TODO: add URLS to ActiveListingsAsOfJun24_with_probability.csv
+        # # Make the URLs in the 'URL' column clickable
+        # def make_clickable(val):
+        #     return f'<a href="{val}" target="_blank">{val}</a>'
+        # result['URL'] = result['URL'].apply(make_clickable)
 
         result = result.to_html(index=False, escape=False) # convert df to html and remove index
 
