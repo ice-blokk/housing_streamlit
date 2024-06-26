@@ -30,7 +30,7 @@ with col2:
 with col3:
     baths = st.multiselect(
     "# Baths",
-    [1, 2, 3, 4])
+    [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5])
 
 if st.button('Submit'):
     df = pd.read_csv('ActiveListingsAsOfJun24_with_probability.csv')
