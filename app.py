@@ -96,7 +96,7 @@ with col1:
     # borough = st.text_input("Borough", '')
     borough = st.multiselect(
         "Borough",
-        ['Manhattan', 'Brooklyn', 'Queens', 'The Bronx']
+        ['Manhattan', 'Brooklyn', 'Queens', 'Bronx']
     )
 with col2:
     neighborhood = st.multiselect(
