@@ -2,9 +2,9 @@ import joblib
 import pandas as pd
 import sklearn
 
-model = joblib.load("housing_predictor.sav")
+model = joblib.load("jennifer_model.sav")
 
-file_path = "ActiveListingsAsOfJun24_model.csv"
+file_path = "transparentcity_citysnap_listings.csv"
 df = pd.read_csv(file_path)
 
 df = df.dropna(subset=['Postal Code', '# Beds', '# Baths', 'Rent', 'Payment Standard (PS)', 'Ratio']) # drop NaN values
@@ -16,7 +16,7 @@ probability_housed = predicted_probabilities[:, 1]  # Probability of being house
 
 df['Probability'] = probability_housed # Add the 'Probability' column to the DataFrame
 
-output_file_path = "ActiveListingsAsOfJun24_with_probability.csv"
+output_file_path = "transparentcity_citysnap_listings_with_probability.csv"
 df.to_csv(output_file_path, index=False)
 
 print(f"Updated CSV with probabilities saved to: {output_file_path}")

@@ -84,8 +84,8 @@ neighborhood_to_borough = {
 st.title('HousingMatch')
 st.info("""Hello there! We’re delighted you’re here! 
         Tell us what you’re looking for below, and see a curated list of 
-        properties that fit within your Emergency Housing Voucher (EHV) limit.""")
-st.info("At this time, we are only serving households with EHV vouchers in New York City.")
+        properties that fit within your housing voucher limit.""")
+# st.info("At this time, we are only serving households with EHV vouchers in New York City.")
 
 st.header('Criteria')
 col1, col2, col3, col4 = st.columns(4)
@@ -133,7 +133,7 @@ with col4:
     [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5])
 
 if st.button('Submit'):
-    df = pd.read_csv('June_24_2024_Listings.csv')
+    df = pd.read_csv('transparentcity_citysnap_listings_with_probability.csv')
 
     df = df.sort_values(by='Probability', ascending=False)
 
