@@ -84,7 +84,7 @@ neighborhood_to_borough = {
 st.title('HousingMatch')
 st.info("""Hello there! We’re delighted you’re here! 
         Tell us what you’re looking for below, and see a curated list of 
-        properties that fit within your housing voucher limit.""")
+        properties that fit within your housing voucher limit....""")
 # st.info("At this time, we are only serving households with EHV vouchers in New York City.")
 
 st.header('Criteria')
@@ -137,13 +137,13 @@ if st.button('Submit'):
 
     df = df.sort_values(by='Probability', ascending=False)
 
-    df = df.drop(columns=['Months Free', 'Owner Paid', 'Rent Stabilized',
-                          'Postal Code','Payment Standard (PS)', 'Ratio', 'Parent Neighborhood',	
-                          'Neighborhood3', 'Property Manager', 'Number of Floors', 'Number of Units',	
-                          'Year Built',	'Active', 'Amenities', 'Unnamed: 22', 'Unnamed: 23',	
-                          'Unnamed: 24', 'Unnamed: 25', 'Unnamed: 26', 'Unnamed: 27',	
-                          'Unnamed: 28', 'Unnamed: 29', 'Unnamed: 30', 'Unnamed: 31',	
-                          'Unnamed: 32', 'Unnamed: 33', 'Unnamed: 34'])
+    # df = df.drop(columns=['Months Free', 'Owner Paid', 'Rent Stabilized',
+    #                       'Postal Code','Payment Standard (PS)', 'Ratio', 'Parent Neighborhood',	
+    #                       'Neighborhood3', 'Property Manager', 'Number of Floors', 'Number of Units',	
+    #                       'Year Built',	'Active', 'Amenities', 'Unnamed: 22', 'Unnamed: 23',	
+    #                       'Unnamed: 24', 'Unnamed: 25', 'Unnamed: 26', 'Unnamed: 27',	
+    #                       'Unnamed: 28', 'Unnamed: 29', 'Unnamed: 30', 'Unnamed: 31',	
+    #                       'Unnamed: 32', 'Unnamed: 33', 'Unnamed: 34'])
 
     df = df[df.Borough.isin(list(borough))]
     df = df[df['# Beds'].isin(list(beds))]
