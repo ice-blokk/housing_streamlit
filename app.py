@@ -158,11 +158,10 @@ if st.button('Submit'):
         
         result = filtered_df
 
-        # TODO: add URLS to June_24_2024_Listings.csv
-        # # Make the URLs in the 'URL' column clickable
-        # def make_clickable(val):
-        #     return f'<a href="{val}" target="_blank">{val}</a>'
-        # result['URL'] = result['URL'].apply(make_clickable)
+        # Make the URLs in the 'URL' column clickable
+        def make_clickable(val):
+            return f'<a href="{val}" target="_blank">{val}</a>'
+        result['URL'] = result['URL'].apply(make_clickable)
 
         result = result.to_html(index=False, escape=False) # convert df to html and remove index
 
