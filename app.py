@@ -84,7 +84,7 @@ neighborhood_to_borough = {
 st.title('HousingMatch')
 st.info("""Hello there! We’re delighted you’re here! 
         Tell us what you’re looking for below, and see a curated list of 
-        properties that fit within your housing voucher limit.""")
+        properties that fit within your housing voucher limit...""")
 # st.info("At this time, we are only serving households with EHV vouchers in New York City.")
 
 st.header('Criteria')
