@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
+from streamlit_feedback import streamlit_feedback
 from trubrics.integrations.streamlit import FeedbackCollector
 from trubrics_beta import Trubrics
 
