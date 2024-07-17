@@ -203,10 +203,8 @@ if st.button('Submit'):
                 # )
                 # if feedback:
                 #     print(feedback)
-                thumbs_up = st.button(":thumbsup:", key=str(row.name) + "_up")
-                thumbs_down = st.button(":thumbsdown:", key=str(row.name) + "_down")
 
-                if thumbs_up:
+                if st.button(":thumbsup:", key=str(row.name) + "_up"):
                     trubrics.track(
                         user_id = 'test',
                         event = 'Feedback',
@@ -217,7 +215,7 @@ if st.button('Submit'):
                             "Feedback": 1
                         }
                     )
-                if thumbs_down:
+                if st.button(":thumbsdown:", key=str(row.name) + "_down"):
                     trubrics.track(
                         user_id = 'test',
                         event = 'Feedback',
