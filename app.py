@@ -9,7 +9,7 @@ from trubrics_beta import Trubrics
 # makes page wider
 st.set_page_config(layout="wide")
 
-trubrics = Trubrics(api_key=st.secrets["TRUBRICS_API_KEY"])
+trubrics = Trubrics(api_key="tru-SNMkticg50rWw-aYYAF4tyvBsIpiv0Nw44GJzEcmJQ4")
 
 neighborhood_to_borough = {
     'South Harlem': 'Manhattan',
