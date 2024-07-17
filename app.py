@@ -134,6 +134,14 @@ with col4:
     [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5])
 
 if st.button('Submit'):
+    trubrics.track(
+        user_id = 'test',
+        event = 'Feedback',
+        properties = {
+            "User email": "test@email.com",
+            "User name": "name"
+        }
+    )
     df = pd.read_csv('transparentcity_citysnap_listings_with_probability.csv')
 
     df = df.sort_values(by='Probability', ascending=False)
