@@ -2,6 +2,15 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
+from streamlit_feedback import streamlit_feedback
+from trubrics.integrations.streamlit import FeedbackCollector
+from trubrics_beta import Trubrics
+
+# makes page wider
+st.set_page_config(layout="wide")
+
+trubrics = Trubrics(api_key=st.secrets["TRUBRICS_API_KEY"])
+
 neighborhood_to_borough = {
     'South Harlem': 'Manhattan',
     'Lower East Side': 'Manhattan',
@@ -90,10 +99,6 @@ st.info("""Hello there! We’re delighted you’re here!
 st.header('Criteria')
 col1, col2, col3, col4 = st.columns(4)
 with col1:
-    # st.text('Sepal characteristics')
-    # sepal_l = st.slider('Sepal lenght (cm)', 1.0, 8.0, 0.5)
-    # sepal_w = st.slider('Sepal width (cm)', 2.0, 4.4, 0.5)
-    # borough = st.text_input("Borough", '')
     borough = st.multiselect(
         "Borough",
         ['Manhattan', 'Brooklyn', 'Queens', 'Bronx']
@@ -120,10 +125,6 @@ with col2:
         'Inwood', 'Carroll Gardens', 'Flushing']
     )
 with col3:
-    # st.text('Pepal characteristics')
-    # petal_l = st.slider('Petal lenght (cm)', 1.0, 7.0, 0.5)
-    # petal_w = st.slider('Petal width (cm)', 0.1, 2.5, 0.5)
-    # beds = st.text_input("# Beds (Studio, 1, 2, 3)", '')
     beds = st.multiselect(
     "# Beds",
     ["Studio", '1', "2", "3"])
@@ -136,14 +137,6 @@ if st.button('Submit'):
     df = pd.read_csv('transparentcity_citysnap_listings_with_probability.csv')
 
     df = df.sort_values(by='Probability', ascending=False)
-
-    # df = df.drop(columns=['Months Free', 'Owner Paid', 'Rent Stabilized',
-    #                       'Postal Code','Payment Standard (PS)', 'Ratio', 'Parent Neighborhood',	
-    #                       'Neighborhood3', 'Property Manager', 'Number of Floors', 'Number of Units',	
-    #                       'Year Built',	'Active', 'Amenities', 'Unnamed: 22', 'Unnamed: 23',	
-    #                       'Unnamed: 24', 'Unnamed: 25', 'Unnamed: 26', 'Unnamed: 27',	
-    #                       'Unnamed: 28', 'Unnamed: 29', 'Unnamed: 30', 'Unnamed: 31',	
-    #                       'Unnamed: 32', 'Unnamed: 33', 'Unnamed: 34'])
 
     df = df[df.Borough.isin(list(borough))]
     df = df[df['# Beds'].isin(list(beds))]
@@ -158,15 +151,91 @@ if st.button('Submit'):
         
         result = filtered_df
 
-        # Make the URLs in the 'URL' column clickable
-        def make_clickable(val):
-            return f'<a href="{val}" target="_blank">{val}</a>'
-        result['URL'] = result['URL'].apply(make_clickable)
+        result = result.drop(columns=['Image URL', 'Latitude', 'Longitude'])
 
-        result = result.to_html(index=False, escape=False) # convert df to html and remove index
+        # Make the URLs in the 'URL' column clickable
+        # def make_clickable(val):
+        #     return f'<a href="{val}" target="_blank">{val}</a>'
+        # result['URL'] = result['URL'].apply(make_clickable)
+
+        # def clicked():
+        #     print("clicked")
+
+        # result['Feedback'] = '<button type="button">&#128077</button> <button type="button">&#128077</button>'
+
+        def handle_click(name):
+            st.write(f'Button clicked for {name}')
+        
+        col1, col2, col3, col4, col5 = st.columns([3, 2, 2, 5, 4])
+        with col1:
+            st.write("Name")
+        with col2:
+            st.write("Borough")
+        with col3:
+            st.write("Probability")
+        with col4:
+            st.write("URL")
+        with col5:
+            st.write("Feedback")
+
+        for i, row in result.iterrows():
+            col1, col2, col3, col4, col5 = st.columns([3, 2, 2, 5, 4])
+            with col1:
+                st.write(row['Name'])
+            with col2:
+                st.write(row['Borough'])
+            with col3:
+                st.write(round(row['Probability'], 2))
+            with col4:
+                st.write(row['URL'])
+            with col5:
+                # feedback = streamlit_feedback(
+                #     feedback_type="thumbs",
+                #     key=row.name
+                # )
+                # if feedback:
+                #     print(feedback)
+                thumbs_up = st.button(":thumbsup:", key=str(row.name) + "_up")
+                thumbs_down = st.button(":thumbsdown:", key=str(row.name) + "_down")
+
+                if thumbs_up:
+                    trubrics.track(
+                        user_id = 'test',
+                        event = 'Feedback',
+                        properties = {
+                            "User email": "test@email.com",
+                            "User name": "name",
+                            "URL": row['URL'],
+                            "Feedback": 1
+                        }
+                    )
+                if thumbs_down:
+                    trubrics.track(
+                        user_id = 'test',
+                        event = 'Feedback',
+                        properties = {
+                            "User email": "test@email.com",
+                            "User name": "name",
+                            "URL": row['URL'],
+                            "Feedback": -1
+                        }
+                    )
+            st.divider()
+
+        #result = result.to_html(index=False, escape=False) # convert df to html and remove index
+        #edited_df = st.experimental_data_editor(result)
+
 
         st.markdown(f"<h3>Listings for {bor}:</h3>", unsafe_allow_html=True)
         st.markdown(result, unsafe_allow_html=True)
+
+    # feedback = collector.st_feedback(
+    #     feedback_type="thumbs",
+    #     path="thumbs_feedback.json"
+    # )
+
+    # # print out the feedback object as a dictionary in your app
+    # feedback.dict() if feedback else None
 
 
 # st.markdown('---')
