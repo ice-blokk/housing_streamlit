@@ -210,9 +210,7 @@ if st.button('Submit'):
                         event = 'Feedback',
                         properties = {
                             "User email": "test@email.com",
-                            "User name": "name",
-                            "URL": row['URL'],
-                            "Feedback": 1
+                            "User name": "up",
                         }
                     )
                 if st.button(":thumbsdown:", key=str(row.name) + "_down"):
@@ -221,9 +219,7 @@ if st.button('Submit'):
                         event = 'Feedback',
                         properties = {
                             "User email": "test@email.com",
-                            "User name": "name",
-                            "URL": row['URL'],
-                            "Feedback": -1
+                            "User name": "down"
                         }
                     )
             st.divider()
