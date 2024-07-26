@@ -1,19 +1,3 @@
-<<<<<<< HEAD:util.py
-=======
-import streamlit as st
-import pandas as pd
-import numpy as np
-
-from streamlit_feedback import streamlit_feedback
-from trubrics.integrations.streamlit import FeedbackCollector
-from trubrics_beta import Trubrics
-
-# makes page wider
-st.set_page_config(layout="wide")
-
-trubrics = Trubrics(api_key=st.secrets["TRUBRICS_API_KEY"])
-
->>>>>>> e1f3e2b4ca2bc529134605ec862a2bd4eab2b8dc:app.py
 neighborhood_to_borough = {
     'South Harlem': 'Manhattan',
     'Lower East Side': 'Manhattan',
