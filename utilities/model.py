@@ -2,7 +2,7 @@ import joblib
 import pandas as pd
 import sklearn
 
-model = joblib.load("jennifer_model.sav")
+model = joblib.load("utilities/jennifer_model.sav")
 
 file_path = "transparentcity_citysnap_listings.csv"
 df = pd.read_csv(file_path)

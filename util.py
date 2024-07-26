@@ -1,16 +1,3 @@
-import streamlit as st
-import pandas as pd
-import numpy as np
-
-from streamlit_feedback import streamlit_feedback
-from trubrics.integrations.streamlit import FeedbackCollector
-from trubrics_beta import Trubrics
-
-# makes page wider
-st.set_page_config(layout="wide")
-
-trubrics = Trubrics(api_key="tru-SNMkticg50rWw-aYYAF4tyvBsIpiv0Nw44GJzEcmJQ4")
-
 neighborhood_to_borough = {
     'South Harlem': 'Manhattan',
     'Lower East Side': 'Manhattan',
@@ -90,23 +77,7 @@ neighborhood_to_borough = {
     None: None
 }
 
-st.title('HousingMatch')
-st.info("""Hello there! We’re delighted you’re here! 
-        Tell us what you’re looking for below, and see a curated list of 
-        properties that fit within your housing voucher limit.""")
-# st.info("At this time, we are only serving households with EHV vouchers in New York City.")
-
-st.header('Criteria')
-col1, col2, col3, col4 = st.columns(4)
-with col1:
-    borough = st.multiselect(
-        "Borough",
-        ['Manhattan', 'Brooklyn', 'Queens', 'Bronx']
-    )
-with col2:
-    neighborhood = st.multiselect(
-        "Neighborhood",
-        ['South Harlem', 'Lower East Side', 'Central Harlem', 'Bedford-Stuyvesant',
+neighborhood_selection = ['South Harlem', 'Lower East Side', 'Central Harlem', 'Bedford-Stuyvesant',
         'Bushwick', 'Little Italy', 'Williamsburg', 'East Village', 'Kips Bay',
         'Sutton Place', 'East Williamsburg', "Hell's Kitchen", 'Murray Hill',
         'Hamilton Heights', 'Chinatown', 'Crown Heights', 'East Harlem', 'Yorkville',
@@ -123,113 +94,42 @@ with col2:
         'Spuyten Duyvil', 'Clinton Hill', 'Kew Gardens', 'Park Slope', 'Mount Hope',
         'University Heights', 'Washington Heights', 'Jackson Heights', 'Homecrest',
         'Inwood', 'Carroll Gardens', 'Flushing']
-    )
-with col3:
-    beds = st.multiselect(
-    "# Beds",
-    ["Studio", '1', "2", "3"])
-with col4:
-    baths = st.multiselect(
-    "# Baths",
-    [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5])
 
-if st.button('Submit'):
-    trubrics.track(
-        user_id = 'test',
-        event = 'Feedback',
-        properties = {
-            "User email": "test@email.com",
-            "User name": "name"
-        }
-    )
-    df = pd.read_csv('transparentcity_citysnap_listings_with_probability.csv')
+column_names = ['_id', 
+                'user_email',
+                'Name', 
+                'Street Address', 
+                'Locality', 'Borough', 
+                'Postal Code', 
+                'Country', 
+                'Rent', 
+                'Payment Standard (PS)', 
+                'Ratio', 'Price Currency', 
+                'Description', 
+                'Property Type',
+                '# Beds',
+                '# Baths',
+                'Square Footage', 
+                'URL', 
+                'Probability'
+                ]
 
-    df = df.sort_values(by='Probability', ascending=False)
+# Make the URLs in the 'URL' column clickable
+# def make_clickable(val):
+#     return f'<a href="{val}" target="_blank">{val}</a>'
+# result['URL'] = result['URL'].apply(make_clickable)
 
-    df = df[df.Borough.isin(list(borough))]
-    df = df[df['# Beds'].isin(list(beds))]
-    df = df[df['# Baths'].isin(list(baths))]
+# def clicked():
+#     print("clicked")
 
-    for bor in borough:
-        filtered_df = df[df['Borough'] == bor]
-
-        if len(list(neighborhood)) != 0:
-
-            filtered_df = df[df['Neighborhood'].isin(list(neighborhood))]
-        
-        result = filtered_df
-
-        result = result.drop(columns=['Image URL', 'Latitude', 'Longitude'])
-
-        # Make the URLs in the 'URL' column clickable
-        # def make_clickable(val):
-        #     return f'<a href="{val}" target="_blank">{val}</a>'
-        # result['URL'] = result['URL'].apply(make_clickable)
-
-        # def clicked():
-        #     print("clicked")
-
-        # result['Feedback'] = '<button type="button">&#128077</button> <button type="button">&#128077</button>'
-
-        def handle_click(name):
-            st.write(f'Button clicked for {name}')
-        
-        col1, col2, col3, col4, col5 = st.columns([3, 2, 2, 5, 4])
-        with col1:
-            st.write("Name")
-        with col2:
-            st.write("Borough")
-        with col3:
-            st.write("Probability")
-        with col4:
-            st.write("URL")
-        with col5:
-            st.write("Feedback")
-
-        for i, row in result.iterrows():
-            col1, col2, col3, col4, col5 = st.columns([3, 2, 2, 5, 4])
-            with col1:
-                st.write(row['Name'])
-            with col2:
-                st.write(row['Borough'])
-            with col3:
-                st.write(round(row['Probability'], 2))
-            with col4:
-                st.write(row['URL'])
-            with col5:
-                # feedback = streamlit_feedback(
-                #     feedback_type="thumbs",
-                #     key=row.name
-                # )
-                # if feedback:
-                #     print(feedback)
-
-                if st.button(":thumbsup:", key=str(row.name) + "_up"):
-                    trubrics.track(
-                        user_id = 'test',
-                        event = 'Feedback',
-                        properties = {
-                            "User email": "test@email.com",
-                            "User name": "up",
-                        }
-                    )
-                if st.button(":thumbsdown:", key=str(row.name) + "_down"):
-                    trubrics.track(
-                        user_id = 'test',
-                        event = 'Feedback',
-                        properties = {
-                            "User email": "test@email.com",
-                            "User name": "down"
-                        }
-                    )
-            st.divider()
+# result['Feedback'] = '<button type="button">&#128077</button> <button type="button">&#128077</button>'
 
         #result = result.to_html(index=False, escape=False) # convert df to html and remove index
         #edited_df = st.experimental_data_editor(result)
 
 
-        st.markdown(f"<h3>Listings for {bor}:</h3>", unsafe_allow_html=True)
-        st.markdown(result, unsafe_allow_html=True)
+        # st.markdown(f"<h3>Listings for {bor}:</h3>", unsafe_allow_html=True)
+        # st.markdown(result, unsafe_allow_html=True)
 
     # feedback = collector.st_feedback(
     #     feedback_type="thumbs",

@@ -6,3 +6,6 @@ streamlit
 streamlit_feedback
 trubrics
 trubrics_beta
+st_pages
+st_login_form
+pymongo
