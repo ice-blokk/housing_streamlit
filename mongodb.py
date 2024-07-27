@@ -12,7 +12,7 @@ uri = f'mongodb+srv://{cluster_username}:{cluster_password}@aws-housingmatchnyc.
 # Uses st.cache_resource to only run once.
 @st.cache_resource
 def init_connection():
-    return MongoClient(uri, server_api=ServerApi('1'))
+    return MongoClient(uri, server_api=ServerApi('1'), connect=False)
 
 client = init_connection()
 db = client['mydb']
