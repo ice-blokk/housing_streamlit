@@ -6,7 +6,7 @@ from pymongo.server_api import ServerApi
 cluster_username = st.secrets["mongo"]['cluster_username']
 cluster_password = st.secrets["mongo"]['cluster_password']
 
-uri = f'mongodb+srv://{cluster_username}:{cluster_password}@aws-housingmatchnyc.udjucnu.mongodb.net/?retryWrites=true&w=majority&appName=aws-housingmatchnyc'
+uri = f'mongodb+srv://{cluster_username}:{cluster_password}@aws-housingmatchnyc.udjucnu.mongodb.net/?retryWrites=true&w=majority&appName=aws-housingmatchnyc&ssl=true&ssl_cert_reqs=CERT_NONE'
 
 # Initialize connection.
 # Uses st.cache_resource to only run once.
