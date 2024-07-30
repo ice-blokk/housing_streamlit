@@ -32,9 +32,11 @@ except Exception as e:
 # Uses st.cache_data to only rerun when the query changes or after 10 min.
 @st.cache_data(ttl=600)
 def get_data():
-    db = client.mydb
-    items = db.mycollection.find()
-    items = list(items)  # make hashable for st.cache_data
+    # db = client.mydb
+    # items = db.mycollection.find()
+    # items = list(items)  # make hashable for st.cache_data
+    # return items
+    items = list()
     return items
 
 def save_listing(row):
@@ -42,3 +44,7 @@ def save_listing(row):
     document.update(row.to_dict())
     collection.insert_one(document)
     st.success(f"Listing '{row['Name']}' saved for {st.session_state['user_email']}")
+
+def remove_listing(row):
+    collection.delete_one({'user_email': st.session_state['user_email'], 'Name': row['Name']})
+    st.success(f"Listing '{row['Name']}' removed for {st.session_state['user_email']}")

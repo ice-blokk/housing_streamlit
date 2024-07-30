@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from mongodb import get_collection
+from mongodb import get_collection, remove_listing
 from util import column_names
 from pymongo.mongo_client import MongoClient
 
@@ -30,7 +30,7 @@ with listings_tab:
     
     df = pd.DataFrame(listings, columns=column_names)
 
-    col1, col2, col3, col4 = st.columns([3, 2, 2, 5])
+    col1, col2, col3, col4, col5 = st.columns([3, 2, 2, 5, 4])
     with col1:
         st.subheader("Name")
     with col2:
@@ -39,9 +39,11 @@ with listings_tab:
         st.subheader("Rating")
     with col4:
         st.subheader("URL")
+    with col5:
+        st.subheader("Remove Listing")
 
     for i, row in df.iterrows():
-        col1, col2, col3, col4 = st.columns([3, 2, 2, 5])
+        col1, col2, col3, col4, col5 = st.columns([3, 2, 2, 5, 4])
         with col1:
             st.write(row['Name'])
         with col2:
@@ -55,7 +57,10 @@ with listings_tab:
                 st.write("Less Likely")
         with col4:
             st.write(row['URL'])
-
+        with col5:
+            button_name = str(row.name) + "_savelisting"
+            if st.button("Remove Listing", key=button_name, on_click=remove_listing, args=(row,)):
+                continue
         st.divider()
 
 
