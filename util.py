@@ -145,3 +145,18 @@ column_names = ['_id',
 #               We’re looking for your help to rate listings so that we can serve you better.  Sign up!""",'')
 
 # st.button("Submit Email")
+
+## to get ip from streamlit, added ip to IP Access List in MongoDB
+
+# import requests
+
+# def get_external_ip():
+#     response = requests.get("https://api64.ipify.org?format=json")
+#     if response.status_code == 200:
+#         data = response.json()
+#         return data.get("ip")
+#     else:
+#         return "Unknown"
+
+# external_ip = get_external_ip()
+# st.write("External IP:", external_ip)

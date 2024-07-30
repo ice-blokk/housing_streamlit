@@ -32,11 +32,9 @@ except Exception as e:
 # Uses st.cache_data to only rerun when the query changes or after 10 min.
 @st.cache_data(ttl=600)
 def get_data():
-    # db = client.mydb
-    # items = db.mycollection.find()
-    # items = list(items)  # make hashable for st.cache_data
-    # return items
-    items = list()
+    db = client.mydb
+    items = db.mycollection.find()
+    items = list(items)  # make hashable for st.cache_data
     return items
 
 def save_listing(row):

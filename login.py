@@ -4,19 +4,6 @@ import streamlit as st
 
 login, create, guest = st.tabs(["Login to existing account", "Create a new account", "Continue as guest"])
 
-import requests
-
-def get_external_ip():
-    response = requests.get("https://api64.ipify.org?format=json")
-    if response.status_code == 200:
-        data = response.json()
-        return data.get("ip")
-    else:
-        return "Unknown"
-
-external_ip = get_external_ip()
-st.write("External IP:", external_ip)
-
 def log_in(user_email = "testemail", user_pw = "testpw"):
     st.session_state["authenticated"] = True
     st.session_state["user_email"] = user_email
