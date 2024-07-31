@@ -34,7 +34,7 @@ trubrics = Trubrics(api_key="tru-SNMkticg50rWw-aYYAF4tyvBsIpiv0Nw44GJzEcmJQ4")
 st.title('HousingMatch')
 st.info("""Hello there! We’re delighted you’re here! 
         Tell us what you’re looking for below, and see a curated list of 
-        properties that fit within your housing voucher limit...""")
+        properties that fit within your housing voucher limit.""")
 st.info("""These listings do not guarantee housing.  
         We want to know whether the listings will lead to housing and 
         ask for your help in rating the listings.""")

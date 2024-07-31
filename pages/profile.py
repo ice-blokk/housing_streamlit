@@ -95,6 +95,8 @@ with listings_tab:
                     approved = st.radio("Has your application been approved?", ["Yes", "No"], key=str(row.name) + "_approved")
 
                 extra_info = st.text_input("Please provide any extra information here (optional)", key=str(row.name) + "_extra")
+
+                submit = st.button("Submit feedback", key=str(row.name) + "_submit_feedback"))
         st.divider()
 
 
