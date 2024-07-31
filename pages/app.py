@@ -9,7 +9,20 @@ from trubrics.integrations.streamlit import FeedbackCollector
 from trubrics_beta import Trubrics
 
 # makes page wider
-st.set_page_config(layout="wide")
+st.set_page_config(layout="wide", initial_sidebar_state="collapsed")
+
+# hide sidebar
+
+st.markdown(
+    """
+<style>
+    [data-testid="collapsedControl"] {
+        display: none
+    }
+</style>
+""",
+    unsafe_allow_html=True,
+)
 
 from mongodb import get_data, save_listing
 
@@ -61,47 +74,57 @@ if st.button('Submit'):
     df = df[df['# Baths'].isin(list(baths))]
 
     for bor in borough:
-        filtered_df = df[df['Borough'] == bor]
+        for bed in beds:
+            filtered_df = df[df['Borough'] == bor]
+            filtered_df = df[df['# Beds'] == bed]
 
-        if len(list(neighborhood)) != 0:
+            if len(list(neighborhood)) != 0:
+                filtered_df = df[df['Neighborhood'].isin(list(neighborhood))]
+            
+            result = filtered_df
 
-            filtered_df = df[df['Neighborhood'].isin(list(neighborhood))]
-        
-        result = filtered_df
-
-        result = result.drop(columns=['Image URL', 'Latitude', 'Longitude'])
-        result = result.head(100)
-        
-        col1, col2, col3, col4, col5 = st.columns([3, 2, 2, 5, 4])
-        with col1:
-            st.subheader("Name")
-        with col2:
-            st.subheader("Borough")
-        with col3:
-            st.subheader("Rating")
-        with col4:
-            st.subheader("URL")
-        with col5:
-            st.subheader("Save listing")
-
-        for i, row in result.iterrows():
-            col1, col2, col3, col4, col5 = st.columns([3, 2, 2, 5, 4])
+            result = result.drop(columns=['Image URL', 'Latitude', 'Longitude'])
+            result = result[result['Name'].notna()]
+            result = result.head(20)
+            
+            col1, col2, col3, col4, col5, col6, col7 = st.columns([3, 2, 1, 2, 2, 5, 4])
             with col1:
-                st.write(row['Name'])
+                st.subheader("Name")
             with col2:
-                st.write(row['Borough'])
+                st.subheader("Borough")
             with col3:
-                if row['Probability'] > .66:
-                    st.write(":green[Highly Likely]")
-                elif row['Probability'] < .66 and row['Probability'] > .33:
-                    st.write(":orange[Somewhat Likely]")
-                else:
-                    st.write(":blue[Less Likely]")
+                st.subheader("Beds")
             with col4:
-                st.write(row['URL'])
+                st.subheader("Baths")
             with col5:
-                button_name = str(row.name) + "_savelisting"
-                if st.button("Save listing", key=button_name, on_click=save_listing, args=(row,)):
-                    save_listing(row)
+                st.subheader("Rating")
+            with col6:
+                st.subheader("URL")
+            with col7:
+                st.subheader("Save listing")
 
-            st.divider()
+            for i, row in result.iterrows():
+                col1, col2, col3, col4, col5, col6, col7 = st.columns([3, 2, 1, 2, 2, 5, 4])
+                with col1:
+                    st.write(row['Name'])
+                with col2:
+                    st.write(row['Borough'])
+                with col3:
+                    st.write(row['# Beds'])
+                with col4:
+                    st.write(row['# Baths'])
+                with col5:
+                    if row['Probability'] > .66:
+                        st.write(":green[Highly Likely]")
+                    elif row['Probability'] < .66 and row['Probability'] > .33:
+                        st.write(":orange[Somewhat Likely]")
+                    else:
+                        st.write(":blue[Less Likely]")
+                with col6:
+                    st.write(row['URL'])
+                with col7:
+                    button_name = str(row.name) + "_savelisting"
+                    if st.button("Save listing", key=button_name, on_click=save_listing, args=(row,)):
+                        save_listing(row)
+
+                st.divider()

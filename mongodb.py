@@ -46,3 +46,6 @@ def save_listing(row):
 def remove_listing(row):
     collection.delete_one({'user_email': st.session_state['user_email'], 'Name': row['Name']})
     st.success(f"Listing '{row['Name']}' removed for {st.session_state['user_email']}")
+
+def give_feedback(row):
+    return None

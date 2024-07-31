@@ -4,6 +4,24 @@ from mongodb import get_collection, remove_listing
 from util import column_names
 from pymongo.mongo_client import MongoClient
 
+# hide sidebar
+st.set_page_config(layout="wide", initial_sidebar_state="collapsed")
+
+st.markdown(
+    """
+<style>
+    [data-testid="collapsedControl"] {
+        display: none
+    }
+</style>
+""",
+    unsafe_allow_html=True,
+)
+
+if st.button("Return to app"):
+    st.switch_page("pages/app.py")
+
+
 user_tab, listings_tab = st.tabs(['User Details', 'Saved Listings'])
 
 @st.experimental_dialog("Change email")
@@ -30,7 +48,7 @@ with listings_tab:
     
     df = pd.DataFrame(listings, columns=column_names)
 
-    col1, col2, col3, col4, col5 = st.columns([3, 2, 2, 5, 4])
+    col1, col2, col3, col4, col5, col6 = st.columns([3, 2, 2, 5, 4, 4])
     with col1:
         st.subheader("Name")
     with col2:
@@ -41,9 +59,11 @@ with listings_tab:
         st.subheader("URL")
     with col5:
         st.subheader("Remove Listing")
+    with col6:
+        st.subheader("Feedback")
 
     for i, row in df.iterrows():
-        col1, col2, col3, col4, col5 = st.columns([3, 2, 2, 5, 4])
+        col1, col2, col3, col4, col5, col6 = st.columns([3, 2, 2, 5, 4, 4])
         with col1:
             st.write(row['Name'])
         with col2:
@@ -61,6 +81,20 @@ with listings_tab:
             button_name = str(row.name) + "_savelisting"
             if st.button("Remove Listing", key=button_name, on_click=remove_listing, args=(row,)):
                 continue
+        with col6:
+            popover_name = str(row.name) + "_feedback"
+            with st.popover("Feedback"):
+                st.markdown(f"Give feedback for property: {row['Name']}")
+                
+                apply = st.radio("Did you apply to the listing?", ['Yes', 'No'], key=str(row.name) + "_apply")
+                why_apply = st.text_input("Why/why not?", key=str(row.name) + "_why_apply")
+
+                approved = None
+
+                if apply == True:
+                    approved = st.radio("Has your application been approved?", ["Yes", "No"], key=str(row.name) + "_approved")
+
+                extra_info = st.text_input("Please provide any extra information here (optional)", key=str(row.name) + "_extra")
         st.divider()
 
 
