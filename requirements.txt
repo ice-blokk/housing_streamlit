@@ -9,3 +9,5 @@ trubrics_beta
 st_pages
 st_login_form
 pymongo
+flask-bcrypt
+flask

@@ -3,6 +3,12 @@ import streamlit as st
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
 
+from flask import Flask
+from flask_bcrypt import Bcrypt
+
+app = Flask(__name__)
+bcrypt = Bcrypt(app)
+
 cluster_username = st.secrets["mongo"]['cluster_username']
 cluster_password = st.secrets["mongo"]['cluster_password']
 
@@ -18,8 +24,14 @@ client = init_connection()
 db = client['mydb']
 collection = db['mycollection']
 
-def get_collection():
-    return collection
+def get_saved_listings():
+    return db['mycollection']
+
+def get_user_profiles():
+    return db['test_profiles']
+
+def get_listings_feedback():
+    return db['test_listings_feedback']
 
 # Send a ping to confirm a successful connection
 try:
@@ -40,12 +52,43 @@ def get_data():
 def save_listing(row):
     document = {'user_email': st.session_state['user_email']}
     document.update(row.to_dict())
-    collection.insert_one(document)
+    get_saved_listings().insert_one(document)
     st.success(f"Listing '{row['Name']}' saved for {st.session_state['user_email']}")
 
 def remove_listing(row):
-    collection.delete_one({'user_email': st.session_state['user_email'], 'Name': row['Name']})
+    get_saved_listings().delete_one({'user_email': st.session_state['user_email'], 'Name': row['Name']})
     st.success(f"Listing '{row['Name']}' removed for {st.session_state['user_email']}")
 
-def give_feedback(row):
-    return None
+def give_feedback(row, applied, why_applied, approved, extra_info):
+    document = {'user_email': st.session_state['user_email']}
+    document.update(row.to_dict())
+    document.update({"applied": applied, "why_applied": why_applied, "approved": approved, "extra_info": extra_info})
+
+    document.pop('_id', None)
+
+    filter_query = {'user_email': st.session_state['user_email'], 'Name': row['Name']}
+    update_operation = {
+        "$set": document
+    }
+
+    get_listings_feedback().update_one(filter_query, update_operation, upsert=True)
+    st.success(f"Saved feedback for {row['Name']}")
+    
+def in_listings_feedback(row):
+    result = get_listings_feedback().find_one({'user_email': st.session_state['user_email'], 'Name': row['Name']})
+    if result is None:
+        return False
+    return result
+
+def create_user(user_email, password, details):
+    entry = {'user_email': user_email, 'password': bcrypt.generate_password_hash(password)}
+    entry.update(details)
+
+    get_user_profiles().insert_one(entry)
+
+def check_login(user_email, password):
+    pw = get_user_profiles().find_one({'user_email': user_email})
+    if pw == {}:
+        return False
+    return bcrypt.check_password_hash(pw["password"], password)
+    
