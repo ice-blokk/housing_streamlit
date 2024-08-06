@@ -126,7 +126,7 @@ with listings_tab:
         with col3:
             st.write(row['# Beds'])
         with col4:
-            st.write(row['# Baths'])
+            st.write(str(int(row['# Baths'])))
         with col5:
             st.write(row['URL'])
         with col6:
