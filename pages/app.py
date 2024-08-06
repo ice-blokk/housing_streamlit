@@ -24,7 +24,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-from mongodb import get_data, save_listing
+from mongodb import get_data, save_listing, get_user
 
 # get data from mongodb
 items = get_data()
@@ -42,22 +42,41 @@ st.info("""These listings do not guarantee housing.
 if st.button("See profile"):
     st.switch_page("pages/profile.py")
 
+user = get_user(st.session_state['user_email'])
+
 st.header('Criteria')
 col1, col2, col3, col4 = st.columns(4)
 with col1:
+    default_borough = None
+
+    # if array is not empty
+    if user['preferred_boroughs']:
+        default_borough = user['preferred_boroughs']
+
     borough = st.multiselect(
         "Borough",
-        ['Manhattan', 'Brooklyn', 'Queens', 'Bronx']
+        ['Manhattan', 'Brooklyn', 'Queens', 'Bronx'],
+        default=default_borough
     )
+
 with col2:
     neighborhood = st.multiselect(
         "Neighborhood",
         neighborhood_selection
     )
 with col3:
+    default_beds = user['number_beds']
+    if default_beds == 0:
+        default_beds = 'Studio'
+    default_beds = str(default_beds)
+
     beds = st.multiselect(
-    "# Beds",
-    ["Studio", '1', "2", "3"])
+        "# Beds",
+        ["Studio", '1', "2", "3"],
+        default=default_beds
+    )
+
+
 with col4:
     baths = st.multiselect(
     "# Baths",
@@ -83,48 +102,49 @@ if st.button('Click to see the listings'):
     df = df[df['# Baths'].isin(list(baths))]
 
     for bor in borough:
-        for bed in beds:
-            filtered_df = df[df['Borough'] == bor]
-            filtered_df = df[df['# Beds'] == bed]
+        filtered_df = df[df['Borough'] == bor]
 
-            if len(list(neighborhood)) != 0:
-                filtered_df = df[df['Neighborhood'].isin(list(neighborhood))]
-            
-            result = filtered_df
+        if len(list(neighborhood)) != 0:
+            filtered_df = df[df['Neighborhood'].isin(list(neighborhood))]
+        
+        result = filtered_df
 
-            result = result.drop(columns=['Image URL', 'Latitude', 'Longitude'])
-            result = result[result['Name'].notna()]
-            result = result.head(20)
-            
-            col1, col2, col3, col4, col5, col6 = st.columns([3, 2, 1, 2, 5, 4])
+        result = result.drop(columns=['Image URL', 'Latitude', 'Longitude'])
+        result = result[result['Name'].notna()]
+        result = result.head(20)
+        
+        col1, col2, col3, col4, col5, col6 = st.columns([3, 2, 1, 2, 5, 4])
+        with col1:
+            st.subheader("Name")
+        with col2:
+            st.subheader("Borough")
+        with col3:
+            st.subheader("Beds")
+        with col4:
+            st.subheader("Baths")
+        with col5:
+            st.subheader("URL")
+        with col6:
+            st.subheader("Save listing")
+
+        if result.empty:
+            st.error("Sorry! We don't have any listings with that criteria.")
+
+        for i, row in result.iterrows():
+            col1, col2, col3, col4, col5, col6= st.columns([3, 2, 1, 2, 5, 4])
             with col1:
-                st.subheader("Name")
+                st.write(row['Name'])
             with col2:
-                st.subheader("Borough")
+                st.write(row['Borough'])
             with col3:
-                st.subheader("Beds")
+                st.write(row['# Beds'])
             with col4:
-                st.subheader("Baths")
+                st.write(str(int(row['# Baths'])))
             with col5:
-                st.subheader("URL")
+                st.write(row['URL'])
             with col6:
-                st.subheader("Save listing")
+                button_name = str(row.name) + "_savelisting"
+                if st.button("Save listing", key=button_name, on_click=save_listing, args=(row,)):
+                    save_listing(row)
 
-            for i, row in result.iterrows():
-                col1, col2, col3, col4, col5, col6= st.columns([3, 2, 1, 2, 5, 4])
-                with col1:
-                    st.write(row['Name'])
-                with col2:
-                    st.write(row['Borough'])
-                with col3:
-                    st.write(row['# Beds'])
-                with col4:
-                    st.write(row['# Baths'])
-                with col5:
-                    st.write(row['URL'])
-                with col6:
-                    button_name = str(row.name) + "_savelisting"
-                    if st.button("Save listing", key=button_name, on_click=save_listing, args=(row,)):
-                        save_listing(row)
-
-                st.divider()
+            st.divider()

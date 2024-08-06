@@ -91,4 +91,10 @@ def check_login(user_email, password):
     if pw == {}:
         return False
     return bcrypt.check_password_hash(pw["password"], password)
-    
+
+def get_user(user_email):
+    result = get_user_profiles().find_one({'user_email': user_email})
+    return result
+
+def encrypt_password(password):
+    return bcrypt.generate_password_hash(password)

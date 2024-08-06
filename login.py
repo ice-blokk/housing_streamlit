@@ -110,7 +110,7 @@ with create:
             cit_descriptions.append(cit_names.get(i))
 
     if "Other. Please explain" in cit_descriptions:
-        cit_descriptions[cit_descriptions.index("Other. Please explain")] = st.text_input("Please explain your citizenship situation here:")
+        cit_descriptions[cit_descriptions.index("Other. Please explain")] = "Other: " + st.text_input("Please explain your citizenship situation here:")
 
     user_details['citizenship'] = cit_descriptions
 
@@ -132,7 +132,7 @@ with create:
             eth_descriptions.append(eth_names.get(i))
 
     if "Other. Please explain" in eth_descriptions:
-        eth_descriptions[eth_descriptions.index("Other. Please explain")] = st.text_input("Please explain your ethnicity here:")
+        eth_descriptions[eth_descriptions.index("Other. Please explain")] = "Other: " + st.text_input("Please explain your ethnicity here:")
 
     user_details['ethnicity'] = eth_descriptions
 
@@ -151,7 +151,7 @@ with create:
             sex_descriptions.append(sex_names.get(i))
 
     if "Other. Please explain" in sex_descriptions:
-        sex_descriptions[sex_descriptions.index("Other. Please explain")] = st.text_input("Please explain your sexuality here:")
+        sex_descriptions[sex_descriptions.index("Other. Please explain")] = "Other: " + st.text_input("Please explain your sexuality here:")
 
     user_details['sexuality'] = sex_descriptions
 
@@ -171,7 +171,7 @@ with create:
             gen_descriptions.append(gen_names.get(i))
 
     if "Other. Please explain" in gen_descriptions:
-        gen_descriptions[gen_descriptions.index("Other. Please explain")] = st.text_input("Please explain your gender here:")
+        gen_descriptions[gen_descriptions.index("Other. Please explain")] = "Other: " + st.text_input("Please explain your gender here:")
 
     user_details['gender'] = gen_descriptions
 
@@ -191,7 +191,7 @@ with create:
             dis_descriptions.append(dis_names.get(i))
 
     if "Other. Please explain" in dis_descriptions:
-        dis_descriptions[dis_descriptions.index("Other. Please explain")] = st.text_input("Please explain your disability here:")
+        dis_descriptions[dis_descriptions.index("Other. Please explain")] = "Other: " + st.text_input("Please explain your disability here:")
 
     user_details['disability'] = dis_descriptions
 
@@ -221,7 +221,7 @@ with create:
 
 
     if "Other. Please explain" in emp_descriptions:
-        emp_descriptions[emp_descriptions.index("Other. Please explain")] = st.text_input("Please explain your employment here:")
+        emp_descriptions[emp_descriptions.index("Other. Please explain")] = "Other: " + st.text_input("Please explain your employment here:")
 
     user_details['employment'] = emp_descriptions
 
