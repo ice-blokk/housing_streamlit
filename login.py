@@ -83,12 +83,18 @@ with create:
     #household_size = st.number_input("How many people are in your household? :red[(required)]", value=1, min_value=0, max_value=10, step=1)
 
     user_details['household_children'] = st.number_input(f"How many ***{'children (under 18 years old)'}*** are in your household? :red[(required)]", value=0, min_value=0, max_value=10, step=1)
-    user_details['household_adults'] = st.number_input(f"How many ***{'adults (18 to 65 years old)'}*** are in your household? :red[(required)]", value=1, min_value=0, max_value=10, step=1)
-    user_details['household_seniors'] = st.number_input(f"How many ***{'seniors (over 65 years old)'}*** are in your household? :red[(required)]", value=0, min_value=0, max_value=10, step=1)
+    user_details['household_adults'] = st.number_input(f"How many ***{'adults (18 to 64 years old)'}*** are in your household? :red[(required)]", value=1, min_value=0, max_value=10, step=1)
+    user_details['household_seniors'] = st.number_input(f"How many ***{'seniors (65 years old and over)'}*** are in your household? :red[(required)]", value=0, min_value=0, max_value=10, step=1)
 
     st.subheader("Demographic questions (optional)")
-    st.info("Each question below is optional, but we highly appreciate any information you are willing to provide.")
+    st.info("Each question below is optional, but we highly appreciate any information you are willing to provide. Your information will help us better help you.")
     
+    # age
+
+    age = st.number_input("Age: What is your age?", value=0, min_value=0, max_value=150, step=1)
+
+    user_details['age'] = age
+
     # citizenship
 
     cit_names = {0: "U.S. Citizen", 1: "Permanent Resident/'Green Card' Holder", 2: "Asylee/Refugee",
@@ -218,12 +224,6 @@ with create:
         emp_descriptions[emp_descriptions.index("Other. Please explain")] = st.text_input("Please explain your employment here:")
 
     user_details['employment'] = emp_descriptions
-
-    # age
-
-    age = st.number_input("Age: What is your age?", value=0, min_value=0, max_value=150, step=1)
-
-    user_details['age'] = age
 
     keys_to_validate = {'user_email', 'password', 'voucher_amount', 
                         'voucher_type', 'number_beds', 'preferred_boroughs',

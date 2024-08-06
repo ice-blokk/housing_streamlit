@@ -74,7 +74,7 @@ if 'df' not in st.session_state:
 else:
     df = st.session_state['df']
 
-if st.button('Submit'):
+if st.button('Click to see the listings'):
 
     # df = df.sort_values(by='Probability', ascending=False)
     df = st.session_state['df']

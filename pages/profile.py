@@ -19,7 +19,7 @@ st.markdown(
 
 from mongodb import get_saved_listings, remove_listing, in_listings_feedback, give_feedback
 
-if st.button("Return to app"):
+if st.button("Return to home"):
     st.switch_page("pages/app.py")
 
 
