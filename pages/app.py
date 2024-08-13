@@ -4,10 +4,6 @@ import numpy as np
 
 from util import neighborhood_selection
 
-from streamlit_feedback import streamlit_feedback
-from trubrics.integrations.streamlit import FeedbackCollector
-from trubrics_beta import Trubrics
-
 # makes page wider
 st.set_page_config(layout="wide", initial_sidebar_state="collapsed")
 
@@ -28,8 +24,6 @@ from mongodb import get_data, save_listing, get_user
 
 # get data from mongodb
 items = get_data()
-
-trubrics = Trubrics(api_key="tru-SNMkticg50rWw-aYYAF4tyvBsIpiv0Nw44GJzEcmJQ4")
 
 st.title('HousingMatch')
 st.info("""Hello there! We’re delighted you’re here! 
@@ -76,7 +70,6 @@ with col3:
         default=default_beds
     )
 
-
 with col4:
     baths = st.multiselect(
     "# Baths",
@@ -99,13 +92,15 @@ if st.button('Click to see the listings'):
     df = st.session_state['df']
     df = df[df.Borough.isin(list(borough))]
     df = df[df['# Beds'].isin(list(beds))]
-    df = df[df['# Baths'].isin(list(baths))]
+
+    if baths:
+        df = df[df['# Baths'].isin(list(baths))]
+
+    if len(list(neighborhood)) != 0:
+        df = df[df['Neighborhood'].isin(list(neighborhood))]
 
     for bor in borough:
         filtered_df = df[df['Borough'] == bor]
-
-        if len(list(neighborhood)) != 0:
-            filtered_df = df[df['Neighborhood'].isin(list(neighborhood))]
         
         result = filtered_df
 
