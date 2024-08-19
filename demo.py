@@ -8,7 +8,6 @@ from util import neighborhood_selection
 st.set_page_config(layout="wide", initial_sidebar_state="collapsed")
 
 # hide sidebar
-
 st.markdown(
     """
 <style>
@@ -20,32 +19,17 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-from mongodb import get_data, save_listing, get_user
-
-# get data from mongodb
-items = get_data()
+st.session_state['authenicated'] = True
 
 st.title('HousingMatch')
 st.info("""Hello there! We’re delighted you’re here! 
         Tell us what you’re looking for below, and see a curated list of 
         properties that fit within your housing voucher limit...""")
-st.info("""These listings do not guarantee housing.  
-        We want to know whether the listings will lead to housing and 
-        ask for your help in rating the listings.""")
-
-if st.button("See profile"):
-    st.switch_page("pages/profile.py")
-
-user = get_user(st.session_state['user_email'])
 
 st.header('Criteria')
 col1, col2, col3, col4 = st.columns(4)
 with col1:
     default_borough = None
-
-    # if array is not empty
-    if user['preferred_boroughs']:
-        default_borough = user['preferred_boroughs']
 
     borough = st.multiselect(
         "Borough",
@@ -59,7 +43,7 @@ with col2:
         neighborhood_selection
     )
 with col3:
-    default_beds = user['number_beds']
+    default_beds = 0
     if default_beds == 0:
         default_beds = 'Studio'
     default_beds = str(default_beds)
@@ -88,7 +72,7 @@ else:
 
 if st.button('Click to see the listings'):
 
-    # df = df.sort_values(by='Probability', ascending=False)
+    df = df.sort_values(by='Probability', ascending=False)
     df = st.session_state['df']
     df = df[df.Borough.isin(list(borough))]
     df = df[df['# Beds'].isin(list(beds))]
@@ -108,7 +92,7 @@ if st.button('Click to see the listings'):
         result = result[result['Name'].notna()]
         result = result.head(20)
         
-        col1, col2, col3, col4, col5, col6 = st.columns([3, 2, 1, 2, 5, 4])
+        col1, col2, col3, col4, col5, col6, col7 = st.columns([3, 2, 1, 2, 2, 5, 4])
         with col1:
             st.subheader("Name")
         with col2:
@@ -118,15 +102,17 @@ if st.button('Click to see the listings'):
         with col4:
             st.subheader("Baths")
         with col5:
-            st.subheader("URL")
+            st.subheader("Likelihood")
         with col6:
+            st.subheader("URL")
+        with col7:
             st.subheader("Save listing")
 
         if result.empty:
             st.error("Sorry! We don't have any listings with that criteria.")
 
         for i, row in result.iterrows():
-            col1, col2, col3, col4, col5, col6= st.columns([3, 2, 1, 2, 5, 4])
+            col1, col2, col3, col4, col5, col6, col7= st.columns([3, 2, 1, 2, 2, 5, 4])
             with col1:
                 st.write(row['Name'])
             with col2:
@@ -136,10 +122,20 @@ if st.button('Click to see the listings'):
             with col4:
                 st.write(str(int(row['# Baths'])))
             with col5:
-                st.write(row['URL'])
+                prob = row['Probability']
+                if prob < .33:
+                    st.write(":red[Less Likely]")
+                elif prob > .33 and prob < .66:
+                    st.write(":orange[Somewhat Likely]")
+                else:
+                    st.write(":green[Most Likely]")
+                
+                # st.write(prob)
             with col6:
+                st.write(row['URL'])
+            with col7:
                 button_name = str(row.name) + "_savelisting"
-                if st.button("Save listing", key=button_name, on_click=save_listing, args=(row,)):
-                    save_listing(row)
+                if st.button("Save listing", key=button_name):
+                    continue
 
             st.divider()
