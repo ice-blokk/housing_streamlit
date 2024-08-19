@@ -93,8 +93,8 @@ if st.button('Click to see the listings'):
     df = df[df.Borough.isin(list(borough))]
     df = df[df['# Beds'].isin(list(beds))]
 
-    if baths:
-        df = df[df['# Baths'].isin(list(baths))]
+    # if baths:
+    #     df = df[df['# Baths'].isin(list(baths))]
 
     if len(list(neighborhood)) != 0:
         df = df[df['Neighborhood'].isin(list(neighborhood))]

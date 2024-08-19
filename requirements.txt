@@ -8,6 +8,6 @@ trubrics
 trubrics_beta
 st_pages
 st_login_form
-pymongo==4.8.0
+pymongo
 flask-bcrypt
 flask
