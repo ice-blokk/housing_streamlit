@@ -118,7 +118,7 @@ if st.button('Click to see the listings'):
             with col4:
                 st.write(str(int(row['# Baths'])))
             with col5:
-                st.write(str(row['Rent']))
+                st.write("${:,.2f}".format(row['Rent']))
             with col6:
                 prob = row['Probability']
                 if prob < .33:
