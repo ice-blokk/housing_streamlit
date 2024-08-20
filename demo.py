@@ -24,7 +24,7 @@ st.session_state['authenicated'] = True
 st.title('Ebbie Housing Demo')
 st.info("""Hello there! We’re delighted you’re here! 
         Tell us what you’re looking for below, and see a curated list of 
-        properties that fit within your CityFHEP/FHEPS housing voucher limits. The limits may also apply to Section 8, but please
+        properties that fit within your **CityFHEPS/FHEPS** housing voucher limits. The limits may also apply to Section 8, but please
         note, we have not reflected the Exception Payment Standards.""")
 st.info("""At this time, we only serve New York City (Staten Island listings coming soon!).""")
 st.info("Questions? Contact ebbiehousing@gmail.com")
