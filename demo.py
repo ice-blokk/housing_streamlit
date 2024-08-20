@@ -25,8 +25,8 @@ st.title('Ebbie Housing Demo')
 st.info("""Hello there! We’re delighted you’re here! 
         Tell us what you’re looking for below, and see a curated list of 
         properties that fit within your housing voucher limit.""")
-st.info("""At this time, we are serving New York City (Staten Island listings coming soon!). Our predictions are based on the 
-        CityFHEPS/FHEPS/Section 8 payment standards and do not account for the Section 8 exception payment standards""")
+st.info("""At this time, we only serve New York City (Staten Island listings coming soon!). Our predictions are based on the 
+        CityFHEPS/FHEPS/Section 8 payment standards and do not account for the Section 8 exception payment standards.""")
 st.info("Questions? Contact ebbiehousing@gmail.com")
 
 st.header('Criteria')
