@@ -79,6 +79,9 @@ if st.button('Click to see the listings'):
     # if len(list(neighborhood)) != 0:
     #     df = df[df['Neighborhood'].isin(list(neighborhood))]
 
+    if not borough:
+        st.error("Please select at least 1 borough")
+
     for bor in borough:
         filtered_df = df[df['Borough'] == bor]
         
@@ -118,7 +121,7 @@ if st.button('Click to see the listings'):
             with col4:
                 st.write(str(int(row['# Baths'])))
             with col5:
-                st.write("${:,.2f}".format(row['Rent']))
+                st.write("${:,}".format(row['Rent']))
             with col6:
                 prob = row['Probability']
                 if prob < .33:
