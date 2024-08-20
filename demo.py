@@ -30,12 +30,10 @@ st.info("Questions? Contact ebbiehousing@gmail.com")
 st.header('Criteria')
 col1, col2, col3 = st.columns(3)
 with col1:
-    default_borough = None
 
     borough = st.multiselect(
         "Borough",
         ['Manhattan', 'Brooklyn', 'Queens', 'Bronx'],
-        default=default_borough
     )
 
 # with col2:
@@ -71,7 +69,9 @@ if st.button('Click to see the listings'):
     df = df.sort_values(by='Probability', ascending=False)
     df = st.session_state['df']
     df = df[df.Borough.isin(list(borough))]
-    df = df[df['# Beds'].isin(list(beds))]
+
+    if beds:
+        df = df[df['# Beds'].isin(list(beds))]
 
     if baths:
         df = df[df['# Baths'].isin(list(baths))]
