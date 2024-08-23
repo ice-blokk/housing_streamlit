@@ -142,14 +142,14 @@ if st.button('Click to see the listings'):
             with col7:
                 st.write(row['URL'])
             with col8:
-                if st.button("Yes", key=str(row) + "yr"):
+                if st.button("Yes", key=str(row) + "yr", on_click=give_ebbie_feedback, args=(row, "yes", None,)):
                     give_ebbie_feedback(row, "yes", None)
-                if st.button("No", key=str(row) + "nr"):
+                if st.button("No", key=str(row) + "nr", on_click=give_ebbie_feedback, args=(row, "no", None,)):
                     give_ebbie_feedback(row, "no", None)
             with col9:
-                if st.button("Yes", key=str(row) + "yl"):
+                if st.button("Yes", key=str(row) + "yl", on_click=give_ebbie_feedback, args=(row, None, "yes",)):
                     give_ebbie_feedback(row, None, "yes")
-                if st.button("No", key=str(row) + "nl"):
+                if st.button("No", key=str(row) + "nl", on_click=give_ebbie_feedback, args=(row, None, "no",)):
                     give_ebbie_feedback(row, None, "no")
 
             st.divider()
