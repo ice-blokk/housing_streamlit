@@ -33,6 +33,9 @@ def get_user_profiles():
 def get_listings_feedback():
     return db['test_listings_feedback']
 
+def get_ebbie_feedback():
+    return db['ebbie_feedback']
+
 # Send a ping to confirm a successful connection
 try:
     client.admin.command('ping')
@@ -98,3 +101,15 @@ def get_user(user_email):
 
 def encrypt_password(password):
     return bcrypt.generate_password_hash(password)
+
+def give_ebbie_feedback(row, responsive, led_to_housing):
+    document = row.to_dict()
+    
+    if responsive != None:
+        document.update({"responsive": responsive})
+    
+    if led_to_housing != None:
+        document.update({"led_to_housing": led_to_housing})
+
+    get_ebbie_feedback().insert_one(document)
+    st.success(f"Saved feedback for {row['Name']}")
