@@ -11,3 +11,4 @@ st_login_form
 pymongo
 flask-bcrypt
 flask
+streamlit-navigation-bar

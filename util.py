@@ -160,3 +160,44 @@ column_names = ['_id',
 
 # external_ip = get_external_ip()
 # st.write("External IP:", external_ip)
+
+navbar_style_1 = {
+    "nav": {
+        "background-color": "rgb(123, 209, 146)",
+    },
+    "div": {
+        "max-width": "32rem",
+    },
+    "span": {
+        "border-radius": "0.5rem",
+        "color": "rgb(49, 51, 63)",
+        "margin": "0 0.125rem",
+        "padding": "0.4375rem 0.625rem",
+    },
+    "active": {
+        "background-color": "rgba(255, 255, 255, 0.25)",
+    },
+    "hover": {
+        "background-color": "rgba(255, 255, 255, 0.35)",
+    },
+}
+
+navbar_style_2 = {
+    "nav": {
+        "background-color": "royalblue",
+        "justify-content": "left",
+    },
+    "img": {
+        "padding-right": "14px",
+    },
+    "span": {
+        "color": "white",
+        "padding": "14px",
+    },
+    "active": {
+        "background-color": "white",
+        "color": "var(--text-color)",
+        "font-weight": "normal",
+        "padding": "14px",
+    }
+}

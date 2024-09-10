@@ -2,7 +2,9 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-from util import neighborhood_selection
+from util import neighborhood_selection, navbar_style_1, navbar_style_2
+
+from streamlit_navigation_bar import st_navbar
 
 # makes page wider
 st.set_page_config(layout="wide", initial_sidebar_state="collapsed")
@@ -25,6 +27,21 @@ from mongodb import get_data, save_listing, get_user
 # get data from mongodb
 items = get_data()
 
+# # navigation bar
+# navbar = st_navbar(["Home", "Profile", "Saved Listings"], styles=navbar_style_1)
+# st.write(navbar)
+
+# nav_functions = {
+#     "Home": st.switch_page("pages/app.py"),
+#     "Profile": st.switch_page("pages/profile.py"),
+#     "Saved Listings": st.switch_page("pages/listings.py")
+# }
+
+# go_to = nav_functions.get(navbar)
+# if go_to:
+#     go_to()
+
+# app
 st.title('HousingMatch')
 st.info("""Hello there! We’re delighted you’re here! 
         Tell us what you’re looking for below, and see a curated list of 
@@ -33,8 +50,15 @@ st.info("""These listings do not guarantee housing.
         We want to know whether the listings will lead to housing and 
         ask for your help in rating the listings.""")
 
-if st.button("See profile"):
+if st.button("Logout"):
+    st.session_state["authenticated"] = False
+    st.switch_page("login.py")
+
+if st.button("View Profile"):
     st.switch_page("pages/profile.py")
+
+if st.button("View Saved Listings"):
+    st.switch_page("pages/listings.py")
 
 user = get_user(st.session_state['user_email'])
 
