@@ -2,7 +2,7 @@ import joblib
 import pandas as pd
 import sklearn
 
-model = joblib.load("utilities/jennifer_model.sav")
+model = joblib.load("utilities/jennifer_model_v2.sav")
 
 file_path = "transparentcity_citysnap_listings.csv"
 df = pd.read_csv(file_path)
@@ -16,7 +16,7 @@ probability_housed = predicted_probabilities[:, 1]  # Probability of being house
 
 df['Probability'] = probability_housed # Add the 'Probability' column to the DataFrame
 
-output_file_path = "transparentcity_citysnap_listings_with_probability.csv"
+output_file_path = "transparentcity_citysnap_listings_with_probability_v2.csv"
 df.to_csv(output_file_path, index=False)
 
 print(f"Updated CSV with probabilities saved to: {output_file_path}")
