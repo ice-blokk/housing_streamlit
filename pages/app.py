@@ -42,7 +42,7 @@ items = get_data()
 #     go_to()
 
 # check if authenticated
-if st.session_state["authenticated"] == False:
+if "authenticated" not in st.session_state or st.session_state["authenticated"] == False:
     st.switch_page("pages/login.py")
 
 # app
