@@ -43,7 +43,7 @@ items = get_data()
 
 # check if authenticated
 if "authenticated" not in st.session_state or st.session_state["authenticated"] == False:
-    st.switch_page("pages/login.py")
+    st.switch_page("login.py")
 
 # app
 st.title('HousingMatch')
