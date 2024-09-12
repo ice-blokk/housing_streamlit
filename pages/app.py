@@ -10,7 +10,6 @@ from streamlit_navigation_bar import st_navbar
 st.set_page_config(layout="wide", initial_sidebar_state="collapsed")
 
 # hide sidebar
-
 st.markdown(
     """
 <style>

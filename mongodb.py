@@ -53,10 +53,19 @@ def get_data():
     return items
 
 def save_listing(row):
+    if check_in_listing(row) == False:
+        st.error(f"Listing '{row['Name']}' is already saved for {st.session_state['user_email']}")
+        return False
     document = {'user_email': st.session_state['user_email']}
     document.update(row.to_dict())
     get_saved_listings().insert_one(document)
     st.success(f"Listing '{row['Name']}' saved for {st.session_state['user_email']}")
+
+def check_in_listing(row):
+    result = get_saved_listings().find_one({'user_email': st.session_state['user_email'], 'Name': row['Name']})
+    if result is None:
+        return False
+    return True
 
 def remove_listing(row):
     get_saved_listings().delete_one({'user_email': st.session_state['user_email'], 'Name': row['Name']})
