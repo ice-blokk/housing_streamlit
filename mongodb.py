@@ -64,8 +64,8 @@ def save_listing(row):
 def check_in_listing(row):
     result = get_saved_listings().find_one({'user_email': st.session_state['user_email'], 'Name': row['Name']})
     if result is None:
-        return False
-    return True
+        return True
+    return False
 
 def remove_listing(row):
     get_saved_listings().delete_one({'user_email': st.session_state['user_email'], 'Name': row['Name']})
