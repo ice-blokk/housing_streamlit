@@ -20,6 +20,10 @@ st.markdown(
 
 from mongodb import get_saved_listings, remove_listing, in_listings_feedback, give_feedback, get_user_profiles, check_login, encrypt_password, get_user
 
+# check if authenticated
+if "authenticated" not in st.session_state or st.session_state["authenticated"] == False:
+    st.switch_page("login.py")
+
 if st.button("Logout"):
     st.session_state["authenticated"] = False
     st.switch_page("login.py")
