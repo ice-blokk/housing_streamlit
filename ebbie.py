@@ -2,12 +2,12 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
+# makes page wider
+st.set_page_config(layout="wide", initial_sidebar_state="collapsed")
+
 from util import neighborhood_selection
 
 from mongodb import give_ebbie_feedback
-
-# makes page wider
-st.set_page_config(layout="wide", initial_sidebar_state="collapsed")
 
 # hide sidebar
 st.markdown(
